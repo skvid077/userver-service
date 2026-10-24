@@ -1,0 +1,6 @@
+results/*
+!results/run/
+!results/diagnostics/
+!results/verification.txt
+*.zip
+__pycache__/
