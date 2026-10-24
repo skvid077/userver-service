@@ -38,6 +38,7 @@ target_link_libraries(
            userver::postgresql
 )
 
+target_link_options(${PROJECT_NAME}_objs INTERFACE -fuse-ld=lld-18)
 userver_add_grpc_library(${PROJECT_NAME}_proto PROTOS handlers/hello.proto)
 target_link_libraries(${PROJECT_NAME}_objs PUBLIC ${PROJECT_NAME}_proto)
 
