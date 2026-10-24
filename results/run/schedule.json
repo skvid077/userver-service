@@ -1,0 +1,277 @@
+{
+  "seed": 20261023,
+  "runs": [
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "label": "profile-baseline-warmup-1",
+      "warmup": true
+    },
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "label": "profile-optimized-warmup-1",
+      "warmup": true
+    },
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "label": "profile-optimized-warmup-2",
+      "warmup": true
+    },
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "label": "profile-baseline-warmup-2",
+      "warmup": true
+    },
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "pair": 1,
+      "label": "profile-optimized-01",
+      "warmup": false
+    },
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "pair": 1,
+      "label": "profile-baseline-01",
+      "warmup": false
+    },
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "pair": 2,
+      "label": "profile-optimized-02",
+      "warmup": false
+    },
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "pair": 2,
+      "label": "profile-baseline-02",
+      "warmup": false
+    },
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "pair": 3,
+      "label": "profile-baseline-03",
+      "warmup": false
+    },
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "pair": 3,
+      "label": "profile-optimized-03",
+      "warmup": false
+    },
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "pair": 4,
+      "label": "profile-optimized-04",
+      "warmup": false
+    },
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "pair": 4,
+      "label": "profile-baseline-04",
+      "warmup": false
+    },
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "pair": 5,
+      "label": "profile-baseline-05",
+      "warmup": false
+    },
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "pair": 5,
+      "label": "profile-optimized-05",
+      "warmup": false
+    },
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "pair": 6,
+      "label": "profile-baseline-06",
+      "warmup": false
+    },
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "pair": 6,
+      "label": "profile-optimized-06",
+      "warmup": false
+    },
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "pair": 7,
+      "label": "profile-optimized-07",
+      "warmup": false
+    },
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "pair": 7,
+      "label": "profile-baseline-07",
+      "warmup": false
+    },
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "pair": 8,
+      "label": "profile-baseline-08",
+      "warmup": false
+    },
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "pair": 8,
+      "label": "profile-optimized-08",
+      "warmup": false
+    },
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "pair": 9,
+      "label": "profile-optimized-09",
+      "warmup": false
+    },
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "pair": 9,
+      "label": "profile-baseline-09",
+      "warmup": false
+    },
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "pair": 10,
+      "label": "profile-baseline-10",
+      "warmup": false
+    },
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "pair": 10,
+      "label": "profile-optimized-10",
+      "warmup": false
+    },
+    {
+      "mode": "plain",
+      "variant": "baseline",
+      "label": "plain-baseline-warmup-1",
+      "warmup": true
+    },
+    {
+      "mode": "plain",
+      "variant": "optimized",
+      "label": "plain-optimized-warmup-1",
+      "warmup": true
+    },
+    {
+      "mode": "plain",
+      "variant": "optimized",
+      "label": "plain-optimized-warmup-2",
+      "warmup": true
+    },
+    {
+      "mode": "plain",
+      "variant": "baseline",
+      "label": "plain-baseline-warmup-2",
+      "warmup": true
+    },
+    {
+      "mode": "plain",
+      "variant": "baseline",
+      "pair": 1,
+      "label": "plain-baseline-01",
+      "warmup": false
+    },
+    {
+      "mode": "plain",
+      "variant": "optimized",
+      "pair": 1,
+      "label": "plain-optimized-01",
+      "warmup": false
+    },
+    {
+      "mode": "plain",
+      "variant": "optimized",
+      "pair": 2,
+      "label": "plain-optimized-02",
+      "warmup": false
+    },
+    {
+      "mode": "plain",
+      "variant": "baseline",
+      "pair": 2,
+      "label": "plain-baseline-02",
+      "warmup": false
+    },
+    {
+      "mode": "plain",
+      "variant": "optimized",
+      "pair": 3,
+      "label": "plain-optimized-03",
+      "warmup": false
+    },
+    {
+      "mode": "plain",
+      "variant": "baseline",
+      "pair": 3,
+      "label": "plain-baseline-03",
+      "warmup": false
+    },
+    {
+      "mode": "plain",
+      "variant": "baseline",
+      "pair": 4,
+      "label": "plain-baseline-04",
+      "warmup": false
+    },
+    {
+      "mode": "plain",
+      "variant": "optimized",
+      "pair": 4,
+      "label": "plain-optimized-04",
+      "warmup": false
+    },
+    {
+      "mode": "plain",
+      "variant": "baseline",
+      "pair": 5,
+      "label": "plain-baseline-05",
+      "warmup": false
+    },
+    {
+      "mode": "plain",
+      "variant": "optimized",
+      "pair": 5,
+      "label": "plain-optimized-05",
+      "warmup": false
+    },
+    {
+      "mode": "plain",
+      "variant": "optimized",
+      "pair": 6,
+      "label": "plain-optimized-06",
+      "warmup": false
+    },
+    {
+      "mode": "plain",
+      "variant": "baseline",
+      "pair": 6,
+      "label": "plain-baseline-06",
+      "warmup": false
+    }
+  ]
+}

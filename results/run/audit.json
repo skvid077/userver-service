@@ -1,0 +1,32 @@
+{
+  "optimization": "LLVM LLD 18 instead of GNU ld; no PCH",
+  "same_sources": true,
+  "ccache_disabled_by_cmake_and_environment": true,
+  "modes": {
+    "profile": {
+      "matching_compiler_flags": true,
+      "link_commands_differ_only_in_linker": true,
+      "source_command_count": 12
+    },
+    "plain": {
+      "matching_compiler_flags": true,
+      "link_commands_differ_only_in_linker": true,
+      "source_command_count": 12
+    }
+  },
+  "source_sha256": {
+    "greeting.cpp": "bd9ca2166a90057c81772000db69f0f89f52699cb4cda00cd2e8da4e1be778f5",
+    "greeting.hpp": "36e98e44abe8ad6e7e54eff2c6f05040580d9cd45cd4a81364c148d5e10045ce",
+    "greeting_benchmark.cpp": "aa9c879f748328d49455b40aef454cd9f5424524079c4d5e315611bbd1309913",
+    "greeting_test.cpp": "8c9b6359603704f3a5d9b7393152a79ee304faddc05f223fb869d2147f593ae8",
+    "hello.cpp": "ad17f8b6ac281721ce19577e7be8f2de970566cf796afd16d263d6b9c5c022f5",
+    "hello.hpp": "1a8905c7769c617fb598a113a4f6a5239b7e347801dd2505e239501874d7da52",
+    "hello_grpc.cpp": "827895509aa77416df0f52a71a7ea1a5790fcd03741060c78698101e77b1c6bf",
+    "hello_grpc.hpp": "1899217fda904757cbfa35f8feb5b0c87f3c5204ea30763a18f7ac125ae11e27",
+    "hello_mongo.cpp": "d248c6b340086637955345c621583eaf9ddd3d7f683ecd547ed0ce0b53c844e2",
+    "hello_mongo.hpp": "cb2d7aaee97af8b0a4b1205d4f6499dfac519ae2c1f7b976200651bca77d6c88",
+    "hello_postgres.cpp": "c653112551cc6d81ce526930920a45465142eca56cbf3caafed7cc3379adf323",
+    "hello_postgres.hpp": "80c078ee14bc1067e1e0d2c36dae671d37d42329fa7851a29af14fba3ab54097",
+    "main.cpp": "4c708963a1eefd41b1057d132e2edd88db6c709504906a4d6fc573cfebce8d2b"
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+    "recorded_at":  "2026-10-24T21:08:18.0013469+03:00",
+    "os":  "Microsoft Windows 10.0.26200 ",
+    "processor":  {
+                      "Name":  "AMD Ryzen 5 7600X 6-Core Processor             ",
+                      "NumberOfCores":  6,
+                      "NumberOfLogicalProcessors":  12
+                  },
+    "memory_bytes":  33411727360,
+    "docker":  "Engine=29.8.2 OS=Docker Desktop Kernel=6.18.54.1-microsoft-standard-WSL2 Arch=x86_64 CPUs=12 Memory=16301989888",
+    "image":  "ghcr.io/userver-framework/ubuntu-22.04-userver@sha256:fca9c8ac7e97b4e2b042d822facbb152aec10a9d4e09c0862e44c50640f3f303"
+}

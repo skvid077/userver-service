@@ -1,0 +1,6 @@
+
+String dump of section '.comment':
+  [     0]  Linker: Ubuntu LLD 18.1.8
+  [    1b]  Ubuntu clang version 18.1.8 (++20240731024944+3b5b5c1ec4a3-1~exp1~20240731145000.144)
+  [    71]  GCC: (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0
+

@@ -1,0 +1,1 @@
+Both GNU-ld and LLD unit tests passed; configuration schemas and dynamic dependencies of all service builds are identical. ELF .comment confirms Ubuntu LLD 18.1.8 only in optimized binaries; debug sections and symbol tables preserved.

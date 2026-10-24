@@ -1,0 +1,61 @@
+There are 52 section headers, starting at offset 0x74dfcd0:
+
+Section Headers:
+  [Nr] Name              Type            Address          Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            0000000000000000 000000 000000 00      0   0  0
+  [ 1] .interp           PROGBITS        0000000000000350 000350 00001c 00   A  0   0  1
+  [ 2] .note.gnu.property NOTE            0000000000000370 000370 000020 00   A  0   0  8
+  [ 3] .note.gnu.build-id NOTE            0000000000000390 000390 000024 00   A  0   0  4
+  [ 4] .note.ABI-tag     NOTE            00000000000003b4 0003b4 000020 00   A  0   0  4
+  [ 5] .gnu.hash         GNU_HASH        00000000000003d8 0003d8 000c5c 00   A  6   0  8
+  [ 6] .dynsym           DYNSYM          0000000000001038 001038 0098e8 18   A  7   1  8
+  [ 7] .dynstr           STRTAB          000000000000a920 00a920 00be6a 00   A  0   0  1
+  [ 8] .gnu.version      VERSYM          000000000001678a 01678a 000cbe 02   A  6   0  2
+  [ 9] .gnu.version_r    VERNEED         0000000000017448 017448 000440 00   A  7  14  8
+  [10] .rela.dyn         RELA            0000000000017888 017888 094458 18   A  6   0  8
+  [11] .rela.plt         RELA            00000000000abce0 0abce0 006330 18  AI  6  33  8
+  [12] .init             PROGBITS        00000000000b3000 0b3000 00001b 00  AX  0   0  4
+  [13] .plt              PROGBITS        00000000000b3020 0b3020 004230 10  AX  0   0 16
+  [14] .plt.got          PROGBITS        00000000000b7250 0b7250 0000e0 08  AX  0   0  8
+  [15] .text             PROGBITS        00000000000b7340 0b7340 be0c73 00  AX  0   0 32
+  [16] malloc_hook       PROGBITS        0000000000c97fc0 c97fc0 000259 00  AX  0   0 16
+  [17] __rseq_failure    PROGBITS        0000000000c98219 c98219 000024 00  AX  0   0  1
+  [18] cxa               PROGBITS        0000000000c98240 c98240 000019 00  AX  0   0 16
+  [19] .fini             PROGBITS        0000000000c9825c c9825c 00000d 00  AX  0   0  4
+  [20] .rodata           PROGBITS        0000000000c99000 c99000 12eff3 00   A  0   0 32
+  [21] protodesc_cold    PROGBITS        0000000000dc8000 dc8000 0023bf 00   A  0   0 32
+  [22] flags_help_cold   PROGBITS        0000000000dca3c0 dca3c0 000590 00   A  0   0 32
+  [23] .eh_frame_hdr     PROGBITS        0000000000dca950 dca950 05252c 00   A  0   0  4
+  [24] .eh_frame         PROGBITS        0000000000e1ce80 e1ce80 1b6754 00   A  0   0  8
+  [25] .gcc_except_table PROGBITS        0000000000fd35d4 fd35d4 057feb 00   A  0   0  4
+  [26] .tdata            PROGBITS        000000000102cc00 102bc00 000420 00 WAT  0   0 1024
+  [27] .tbss             NOBITS          000000000102d020 102c020 003d28 00 WAT  0   0 16
+  [28] .init_array       INIT_ARRAY      000000000102d020 102c020 001e00 08  WA  0   0  8
+  [29] .fini_array       FINI_ARRAY      000000000102ee20 102de20 000018 08  WA  0   0  8
+  [30] .data.rel.ro      PROGBITS        000000000102ee40 102de40 035e20 00  WA  0   0 32
+  [31] .dynamic          DYNAMIC         0000000001064c60 1063c60 000430 10  WA  7   0  8
+  [32] .got              PROGBITS        0000000001065090 1064090 000ee8 08  WA  0   0  8
+  [33] .got.plt          PROGBITS        0000000001066000 1065000 002128 08  WA  0   0  8
+  [34] .data             PROGBITS        0000000001068140 1067140 005cc0 00  WA  0   0 64
+  [35] __rseq_cs         PROGBITS        000000000106de00 106ce00 0000c0 00  WA  0   0 32
+  [36] .bss              NOBITS          000000000106dec0 106cec0 028578 00  WA  0   0 64
+  [37] .comment          PROGBITS        0000000000000000 106cec0 000083 01  MS  0   0  1
+  [38] .debug_aranges    PROGBITS        0000000000000000 17acdc8 015311 00   C  0   0  8
+  [39] .debug_info       PROGBITS        0000000000000000 17c20e0 46f1d34 00   C  0   0  8
+  [40] .debug_abbrev     PROGBITS        0000000000000000 5eb3e18 0f207b 00   C  0   0  8
+  [41] .debug_line       PROGBITS        0000000000000000 5fa5e98 43adc0 00   C  0   0  8
+  [42] .debug_str        PROGBITS        0000000000000000 63e0c58 41fa68 01 MSC  0   0  8
+  [43] .debug_addr       PROGBITS        0000000000000000 68006c0 002a1a 00   C  0   0  8
+  [44] .debug_line_str   PROGBITS        0000000000000000 68030e0 004260 01 MSC  0   0  8
+  [45] .debug_loclists   PROGBITS        0000000000000000 6807340 a9d168 00   C  0   0  8
+  [46] .debug_rnglists   PROGBITS        0000000000000000 72a44a8 22b5a5 00   C  0   0  8
+  [47] .debug_str_offsets PROGBITS        0000000000000000 74cfa50 00aa0b 00   C  0   0  8
+  [48] .debug_gdb_scripts PROGBITS        0000000000000000 74da460 00563c 01 MSCR  0   0  8
+  [49] .symtab           SYMTAB          0000000000000000 106cf48 17ab28 18     50 23639  8
+  [50] .strtab           STRTAB          0000000000000000 11e7a70 5c5352 00      0   0  1
+  [51] .shstrtab         STRTAB          0000000000000000 74dfa9c 000230 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  R (retain), D (mbind), l (large), p (processor specific)

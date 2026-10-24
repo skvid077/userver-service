@@ -1,0 +1,878 @@
+{
+  "method": "balanced paired runs; warmups excluded; positive delta = optimized slower",
+  "bootstrap": "paired percentile bootstrap of median ratio, 20000 resamples, seed 20261023; exploratory, no host drift/systematic error coverage",
+  "runs": [
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "pair": 1,
+      "label": "profile-optimized-01",
+      "wall_seconds": 8.327844260000006,
+      "compilation_wall_seconds": 6.493,
+      "link_seconds": 1.707,
+      "cpu_user_seconds": 24.990764000000002,
+      "cpu_system_seconds": 2.109562,
+      "compiler_tasks": 10,
+      "trace_count": 10,
+      "cpu_total_seconds": 27.100326000000003,
+      "frontend_seconds": 17.452901999999998,
+      "backend_seconds": 3.9780329999999995,
+      "execute_compiler_seconds": 21.607792
+    },
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "pair": 1,
+      "label": "profile-baseline-01",
+      "wall_seconds": 20.140158377999967,
+      "compilation_wall_seconds": 6.886,
+      "link_seconds": 13.119,
+      "cpu_user_seconds": 33.560766,
+      "cpu_system_seconds": 2.704505,
+      "compiler_tasks": 10,
+      "trace_count": 10,
+      "cpu_total_seconds": 36.265271,
+      "frontend_seconds": 18.316504000000002,
+      "backend_seconds": 4.2733669999999995,
+      "execute_compiler_seconds": 22.793689999999998
+    },
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "pair": 2,
+      "label": "profile-optimized-02",
+      "wall_seconds": 8.799130404999971,
+      "compilation_wall_seconds": 6.833,
+      "link_seconds": 1.839,
+      "cpu_user_seconds": 25.997651,
+      "cpu_system_seconds": 2.221611,
+      "compiler_tasks": 10,
+      "trace_count": 10,
+      "cpu_total_seconds": 28.219262,
+      "frontend_seconds": 17.987893,
+      "backend_seconds": 4.141346,
+      "execute_compiler_seconds": 22.317324
+    },
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "pair": 2,
+      "label": "profile-baseline-02",
+      "wall_seconds": 19.978625262000037,
+      "compilation_wall_seconds": 6.606,
+      "link_seconds": 13.241,
+      "cpu_user_seconds": 33.068974,
+      "cpu_system_seconds": 2.528874,
+      "compiler_tasks": 10,
+      "trace_count": 10,
+      "cpu_total_seconds": 35.597848,
+      "frontend_seconds": 17.755975,
+      "backend_seconds": 4.069365,
+      "execute_compiler_seconds": 22.008293
+    },
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "pair": 3,
+      "label": "profile-baseline-03",
+      "wall_seconds": 19.320303195000008,
+      "compilation_wall_seconds": 6.447,
+      "link_seconds": 12.748,
+      "cpu_user_seconds": 32.044285,
+      "cpu_system_seconds": 2.278168,
+      "compiler_tasks": 10,
+      "trace_count": 10,
+      "cpu_total_seconds": 34.322453,
+      "frontend_seconds": 17.131087,
+      "backend_seconds": 3.941405,
+      "execute_compiler_seconds": 21.249606
+    },
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "pair": 3,
+      "label": "profile-optimized-03",
+      "wall_seconds": 8.84999926300003,
+      "compilation_wall_seconds": 7.025,
+      "link_seconds": 1.704,
+      "cpu_user_seconds": 26.673677,
+      "cpu_system_seconds": 2.037926,
+      "compiler_tasks": 10,
+      "trace_count": 10,
+      "cpu_total_seconds": 28.711603,
+      "frontend_seconds": 18.577122,
+      "backend_seconds": 4.387277000000001,
+      "execute_compiler_seconds": 23.161002000000003
+    },
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "pair": 4,
+      "label": "profile-optimized-04",
+      "wall_seconds": 8.543465099000002,
+      "compilation_wall_seconds": 6.619,
+      "link_seconds": 1.797,
+      "cpu_user_seconds": 25.723782,
+      "cpu_system_seconds": 2.365195,
+      "compiler_tasks": 10,
+      "trace_count": 10,
+      "cpu_total_seconds": 28.088977,
+      "frontend_seconds": 17.905708,
+      "backend_seconds": 4.34796,
+      "execute_compiler_seconds": 22.438392
+    },
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "pair": 4,
+      "label": "profile-baseline-04",
+      "wall_seconds": 19.479036318999988,
+      "compilation_wall_seconds": 6.35,
+      "link_seconds": 12.999,
+      "cpu_user_seconds": 32.295282,
+      "cpu_system_seconds": 2.442635,
+      "compiler_tasks": 10,
+      "trace_count": 10,
+      "cpu_total_seconds": 34.737917,
+      "frontend_seconds": 17.210572999999997,
+      "backend_seconds": 4.016314,
+      "execute_compiler_seconds": 21.415847999999997
+    },
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "pair": 5,
+      "label": "profile-baseline-05",
+      "wall_seconds": 19.305141037999988,
+      "compilation_wall_seconds": 6.453,
+      "link_seconds": 12.723,
+      "cpu_user_seconds": 32.115232999999996,
+      "cpu_system_seconds": 2.551376,
+      "compiler_tasks": 10,
+      "trace_count": 10,
+      "cpu_total_seconds": 34.666608999999994,
+      "frontend_seconds": 17.385846,
+      "backend_seconds": 4.039655,
+      "execute_compiler_seconds": 21.606426
+    },
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "pair": 5,
+      "label": "profile-optimized-05",
+      "wall_seconds": 8.332840411000006,
+      "compilation_wall_seconds": 6.451,
+      "link_seconds": 1.759,
+      "cpu_user_seconds": 24.79476,
+      "cpu_system_seconds": 1.9930729999999999,
+      "compiler_tasks": 10,
+      "trace_count": 10,
+      "cpu_total_seconds": 26.787833,
+      "frontend_seconds": 17.172805,
+      "backend_seconds": 3.8869409999999998,
+      "execute_compiler_seconds": 21.237565000000004
+    },
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "pair": 6,
+      "label": "profile-baseline-06",
+      "wall_seconds": 19.569905296,
+      "compilation_wall_seconds": 6.537,
+      "link_seconds": 12.906,
+      "cpu_user_seconds": 32.646356000000004,
+      "cpu_system_seconds": 2.411942,
+      "compiler_tasks": 10,
+      "trace_count": 10,
+      "cpu_total_seconds": 35.05829800000001,
+      "frontend_seconds": 17.720247,
+      "backend_seconds": 3.9155270000000004,
+      "execute_compiler_seconds": 21.816139999999997
+    },
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "pair": 6,
+      "label": "profile-optimized-06",
+      "wall_seconds": 8.42801003400001,
+      "compilation_wall_seconds": 6.535,
+      "link_seconds": 1.763,
+      "cpu_user_seconds": 25.270302,
+      "cpu_system_seconds": 2.151392,
+      "compiler_tasks": 10,
+      "trace_count": 10,
+      "cpu_total_seconds": 27.421694000000002,
+      "frontend_seconds": 17.723516,
+      "backend_seconds": 3.9418349999999998,
+      "execute_compiler_seconds": 21.838596
+    },
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "pair": 7,
+      "label": "profile-optimized-07",
+      "wall_seconds": 8.281863618999978,
+      "compilation_wall_seconds": 6.455,
+      "link_seconds": 1.693,
+      "cpu_user_seconds": 25.0685,
+      "cpu_system_seconds": 1.9063519999999998,
+      "compiler_tasks": 10,
+      "trace_count": 10,
+      "cpu_total_seconds": 26.974852,
+      "frontend_seconds": 17.285612,
+      "backend_seconds": 3.974047,
+      "execute_compiler_seconds": 21.444087
+    },
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "pair": 7,
+      "label": "profile-baseline-07",
+      "wall_seconds": 19.533238967999978,
+      "compilation_wall_seconds": 6.574,
+      "link_seconds": 12.834,
+      "cpu_user_seconds": 32.517781,
+      "cpu_system_seconds": 2.371859,
+      "compiler_tasks": 10,
+      "trace_count": 10,
+      "cpu_total_seconds": 34.88964,
+      "frontend_seconds": 17.620569,
+      "backend_seconds": 3.91761,
+      "execute_compiler_seconds": 21.708669
+    },
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "pair": 8,
+      "label": "profile-baseline-08",
+      "wall_seconds": 19.548046408999994,
+      "compilation_wall_seconds": 6.626,
+      "link_seconds": 12.79,
+      "cpu_user_seconds": 32.511892,
+      "cpu_system_seconds": 2.567111,
+      "compiler_tasks": 10,
+      "trace_count": 10,
+      "cpu_total_seconds": 35.079003,
+      "frontend_seconds": 17.814544,
+      "backend_seconds": 3.9521129999999998,
+      "execute_compiler_seconds": 21.947713999999998
+    },
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "pair": 8,
+      "label": "profile-optimized-08",
+      "wall_seconds": 8.662153289999992,
+      "compilation_wall_seconds": 6.8,
+      "link_seconds": 1.727,
+      "cpu_user_seconds": 26.139215,
+      "cpu_system_seconds": 2.061778,
+      "compiler_tasks": 10,
+      "trace_count": 10,
+      "cpu_total_seconds": 28.200993,
+      "frontend_seconds": 18.435760999999996,
+      "backend_seconds": 4.077528,
+      "execute_compiler_seconds": 22.690589999999997
+    },
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "pair": 9,
+      "label": "profile-optimized-09",
+      "wall_seconds": 8.490821627999935,
+      "compilation_wall_seconds": 6.658,
+      "link_seconds": 1.703,
+      "cpu_user_seconds": 25.755451,
+      "cpu_system_seconds": 2.117626,
+      "compiler_tasks": 10,
+      "trace_count": 10,
+      "cpu_total_seconds": 27.873077000000002,
+      "frontend_seconds": 18.176863,
+      "backend_seconds": 3.9855820000000004,
+      "execute_compiler_seconds": 22.355393
+    },
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "pair": 9,
+      "label": "profile-baseline-09",
+      "wall_seconds": 19.56236755000009,
+      "compilation_wall_seconds": 6.532,
+      "link_seconds": 12.903,
+      "cpu_user_seconds": 32.439764,
+      "cpu_system_seconds": 2.368327,
+      "compiler_tasks": 10,
+      "trace_count": 10,
+      "cpu_total_seconds": 34.808091,
+      "frontend_seconds": 17.461267,
+      "backend_seconds": 3.9248700000000003,
+      "execute_compiler_seconds": 21.564681
+    },
+    {
+      "mode": "profile",
+      "variant": "baseline",
+      "pair": 10,
+      "label": "profile-baseline-10",
+      "wall_seconds": 19.446992410999997,
+      "compilation_wall_seconds": 6.497,
+      "link_seconds": 12.82,
+      "cpu_user_seconds": 32.402853,
+      "cpu_system_seconds": 2.5844199999999997,
+      "compiler_tasks": 10,
+      "trace_count": 10,
+      "cpu_total_seconds": 34.987273,
+      "frontend_seconds": 17.683920999999998,
+      "backend_seconds": 3.98622,
+      "execute_compiler_seconds": 21.848152
+    },
+    {
+      "mode": "profile",
+      "variant": "optimized",
+      "pair": 10,
+      "label": "profile-optimized-10",
+      "wall_seconds": 8.210218842000018,
+      "compilation_wall_seconds": 6.371,
+      "link_seconds": 1.71,
+      "cpu_user_seconds": 24.575686,
+      "cpu_system_seconds": 1.999396,
+      "compiler_tasks": 10,
+      "trace_count": 10,
+      "cpu_total_seconds": 26.575082000000002,
+      "frontend_seconds": 16.907816,
+      "backend_seconds": 3.9782590000000004,
+      "execute_compiler_seconds": 21.055059
+    },
+    {
+      "mode": "plain",
+      "variant": "baseline",
+      "pair": 1,
+      "label": "plain-baseline-01",
+      "wall_seconds": 18.76377330999992,
+      "compilation_wall_seconds": 5.979,
+      "link_seconds": 12.652,
+      "cpu_user_seconds": 30.462882,
+      "cpu_system_seconds": 2.462072,
+      "compiler_tasks": 10,
+      "trace_count": 0,
+      "cpu_total_seconds": 32.924954,
+      "frontend_seconds": null,
+      "backend_seconds": null,
+      "execute_compiler_seconds": null
+    },
+    {
+      "mode": "plain",
+      "variant": "optimized",
+      "pair": 1,
+      "label": "plain-optimized-01",
+      "wall_seconds": 8.135463936000065,
+      "compilation_wall_seconds": 6.255,
+      "link_seconds": 1.753,
+      "cpu_user_seconds": 24.295965,
+      "cpu_system_seconds": 2.053859,
+      "compiler_tasks": 10,
+      "trace_count": 0,
+      "cpu_total_seconds": 26.349823999999998,
+      "frontend_seconds": null,
+      "backend_seconds": null,
+      "execute_compiler_seconds": null
+    },
+    {
+      "mode": "plain",
+      "variant": "optimized",
+      "pair": 2,
+      "label": "plain-optimized-02",
+      "wall_seconds": 7.857429511999953,
+      "compilation_wall_seconds": 6.022,
+      "link_seconds": 1.712,
+      "cpu_user_seconds": 23.683927999999998,
+      "cpu_system_seconds": 1.9186100000000001,
+      "compiler_tasks": 10,
+      "trace_count": 0,
+      "cpu_total_seconds": 25.602538,
+      "frontend_seconds": null,
+      "backend_seconds": null,
+      "execute_compiler_seconds": null
+    },
+    {
+      "mode": "plain",
+      "variant": "baseline",
+      "pair": 2,
+      "label": "plain-baseline-02",
+      "wall_seconds": 19.222264680999956,
+      "compilation_wall_seconds": 6.197,
+      "link_seconds": 12.901,
+      "cpu_user_seconds": 31.009597,
+      "cpu_system_seconds": 2.532946,
+      "compiler_tasks": 10,
+      "trace_count": 0,
+      "cpu_total_seconds": 33.542543,
+      "frontend_seconds": null,
+      "backend_seconds": null,
+      "execute_compiler_seconds": null
+    },
+    {
+      "mode": "plain",
+      "variant": "optimized",
+      "pair": 3,
+      "label": "plain-optimized-03",
+      "wall_seconds": 8.003825744999972,
+      "compilation_wall_seconds": 6.134,
+      "link_seconds": 1.743,
+      "cpu_user_seconds": 23.641909,
+      "cpu_system_seconds": 1.9721330000000001,
+      "compiler_tasks": 10,
+      "trace_count": 0,
+      "cpu_total_seconds": 25.614041999999998,
+      "frontend_seconds": null,
+      "backend_seconds": null,
+      "execute_compiler_seconds": null
+    },
+    {
+      "mode": "plain",
+      "variant": "baseline",
+      "pair": 3,
+      "label": "plain-baseline-03",
+      "wall_seconds": 19.013215389000038,
+      "compilation_wall_seconds": 6.074,
+      "link_seconds": 12.81,
+      "cpu_user_seconds": 31.054628,
+      "cpu_system_seconds": 2.3731009999999997,
+      "compiler_tasks": 10,
+      "trace_count": 0,
+      "cpu_total_seconds": 33.427729,
+      "frontend_seconds": null,
+      "backend_seconds": null,
+      "execute_compiler_seconds": null
+    },
+    {
+      "mode": "plain",
+      "variant": "baseline",
+      "pair": 4,
+      "label": "plain-baseline-04",
+      "wall_seconds": 18.74612417200001,
+      "compilation_wall_seconds": 5.88,
+      "link_seconds": 12.739,
+      "cpu_user_seconds": 30.474188,
+      "cpu_system_seconds": 2.261295,
+      "compiler_tasks": 10,
+      "trace_count": 0,
+      "cpu_total_seconds": 32.735483,
+      "frontend_seconds": null,
+      "backend_seconds": null,
+      "execute_compiler_seconds": null
+    },
+    {
+      "mode": "plain",
+      "variant": "optimized",
+      "pair": 4,
+      "label": "plain-optimized-04",
+      "wall_seconds": 7.83157861299992,
+      "compilation_wall_seconds": 5.987,
+      "link_seconds": 1.711,
+      "cpu_user_seconds": 23.532232999999998,
+      "cpu_system_seconds": 2.0761950000000002,
+      "compiler_tasks": 10,
+      "trace_count": 0,
+      "cpu_total_seconds": 25.608427999999996,
+      "frontend_seconds": null,
+      "backend_seconds": null,
+      "execute_compiler_seconds": null
+    },
+    {
+      "mode": "plain",
+      "variant": "baseline",
+      "pair": 5,
+      "label": "plain-baseline-05",
+      "wall_seconds": 18.66553108700009,
+      "compilation_wall_seconds": 6.033,
+      "link_seconds": 12.505,
+      "cpu_user_seconds": 30.362748,
+      "cpu_system_seconds": 2.420173,
+      "compiler_tasks": 10,
+      "trace_count": 0,
+      "cpu_total_seconds": 32.782921,
+      "frontend_seconds": null,
+      "backend_seconds": null,
+      "execute_compiler_seconds": null
+    },
+    {
+      "mode": "plain",
+      "variant": "optimized",
+      "pair": 5,
+      "label": "plain-optimized-05",
+      "wall_seconds": 8.043137867000041,
+      "compilation_wall_seconds": 6.205,
+      "link_seconds": 1.705,
+      "cpu_user_seconds": 23.798618,
+      "cpu_system_seconds": 2.044971,
+      "compiler_tasks": 10,
+      "trace_count": 0,
+      "cpu_total_seconds": 25.843589,
+      "frontend_seconds": null,
+      "backend_seconds": null,
+      "execute_compiler_seconds": null
+    },
+    {
+      "mode": "plain",
+      "variant": "optimized",
+      "pair": 6,
+      "label": "plain-optimized-06",
+      "wall_seconds": 7.874709226999926,
+      "compilation_wall_seconds": 6.078,
+      "link_seconds": 1.675,
+      "cpu_user_seconds": 23.580265,
+      "cpu_system_seconds": 1.941754,
+      "compiler_tasks": 10,
+      "trace_count": 0,
+      "cpu_total_seconds": 25.522019,
+      "frontend_seconds": null,
+      "backend_seconds": null,
+      "execute_compiler_seconds": null
+    },
+    {
+      "mode": "plain",
+      "variant": "baseline",
+      "pair": 6,
+      "label": "plain-baseline-06",
+      "wall_seconds": 18.87933197899997,
+      "compilation_wall_seconds": 6.082,
+      "link_seconds": 12.667,
+      "cpu_user_seconds": 30.948345,
+      "cpu_system_seconds": 2.159716,
+      "compiler_tasks": 10,
+      "trace_count": 0,
+      "cpu_total_seconds": 33.108061,
+      "frontend_seconds": null,
+      "backend_seconds": null,
+      "execute_compiler_seconds": null
+    }
+  ],
+  "modes": {
+    "profile": {
+      "variants": {
+        "optimized": {
+          "runs": 10,
+          "median": {
+            "wall_seconds": 8.459415830999973,
+            "compilation_wall_seconds": 6.577,
+            "link_seconds": 1.7185000000000001,
+            "cpu_user_seconds": 25.497042,
+            "cpu_system_seconds": 2.08567,
+            "cpu_total_seconds": 27.647385500000002,
+            "frontend_seconds": 17.814612,
+            "backend_seconds": 3.9819205,
+            "execute_compiler_seconds": 22.077959999999997
+          },
+          "min": {
+            "wall_seconds": 8.210218842000018,
+            "compilation_wall_seconds": 6.371,
+            "link_seconds": 1.693,
+            "cpu_user_seconds": 24.575686,
+            "cpu_system_seconds": 1.9063519999999998,
+            "cpu_total_seconds": 26.575082000000002,
+            "frontend_seconds": 16.907816,
+            "backend_seconds": 3.8869409999999998,
+            "execute_compiler_seconds": 21.055059
+          },
+          "max": {
+            "wall_seconds": 8.84999926300003,
+            "compilation_wall_seconds": 7.025,
+            "link_seconds": 1.839,
+            "cpu_user_seconds": 26.673677,
+            "cpu_system_seconds": 2.365195,
+            "cpu_total_seconds": 28.711603,
+            "frontend_seconds": 18.577122,
+            "backend_seconds": 4.387277000000001,
+            "execute_compiler_seconds": 23.161002000000003
+          },
+          "stdev": {
+            "wall_seconds": 0.21960121278849246,
+            "compilation_wall_seconds": 0.20661827390410348,
+            "link_seconds": 0.048271915000109265,
+            "cpu_user_seconds": 0.6665906419886529,
+            "cpu_system_seconds": 0.13012764073396893,
+            "cpu_total_seconds": 0.7208130992866396,
+            "frontend_seconds": 0.5540672121454413,
+            "backend_seconds": 0.17198766704867097,
+            "execute_compiler_seconds": 0.6835397193976529
+          }
+        },
+        "baseline": {
+          "runs": 10,
+          "median": {
+            "wall_seconds": 19.540642688499986,
+            "compilation_wall_seconds": 6.5344999999999995,
+            "link_seconds": 12.868500000000001,
+            "cpu_user_seconds": 32.475828,
+            "cpu_system_seconds": 2.4857545,
+            "cpu_total_seconds": 34.9384565,
+            "frontend_seconds": 17.652245,
+            "backend_seconds": 3.9691665,
+            "execute_compiler_seconds": 21.7624045
+          },
+          "min": {
+            "wall_seconds": 19.305141037999988,
+            "compilation_wall_seconds": 6.35,
+            "link_seconds": 12.723,
+            "cpu_user_seconds": 32.044285,
+            "cpu_system_seconds": 2.278168,
+            "cpu_total_seconds": 34.322453,
+            "frontend_seconds": 17.131087,
+            "backend_seconds": 3.9155270000000004,
+            "execute_compiler_seconds": 21.249606
+          },
+          "max": {
+            "wall_seconds": 20.140158377999967,
+            "compilation_wall_seconds": 6.886,
+            "link_seconds": 13.241,
+            "cpu_user_seconds": 33.560766,
+            "cpu_system_seconds": 2.704505,
+            "cpu_total_seconds": 36.265271,
+            "frontend_seconds": 18.316504000000002,
+            "backend_seconds": 4.2733669999999995,
+            "execute_compiler_seconds": 22.793689999999998
+          },
+          "stdev": {
+            "wall_seconds": 0.2680116106538325,
+            "compilation_wall_seconds": 0.14364214794643906,
+            "link_seconds": 0.16689587572295883,
+            "cpu_user_seconds": 0.45278734609777554,
+            "cpu_system_seconds": 0.12793166114596757,
+            "cpu_total_seconds": 0.5415043661777493,
+            "frontend_seconds": 0.34014561458327497,
+            "backend_seconds": 0.10889934106850932,
+            "execute_compiler_seconds": 0.4225230582256096
+          }
+        }
+      },
+      "comparison": {
+        "wall_seconds": {
+          "median_ratio_delta_percent": -56.7086100193701,
+          "paired_median_delta_seconds": -11.106720592000073,
+          "optimized_faster_pairs": 10,
+          "pairs": 10,
+          "bootstrap_95_percent_interval": [
+            -57.48347750669877,
+            -55.54579840212745
+          ]
+        },
+        "compilation_wall_seconds": {
+          "median_ratio_delta_percent": 0.6503940622847981,
+          "paired_median_delta_seconds": 0.06200000000000028,
+          "optimized_faster_pairs": 5,
+          "pairs": 10,
+          "bootstrap_95_percent_interval": [
+            -1.5211439002129512,
+            3.974895397489542
+          ]
+        },
+        "link_seconds": {
+          "median_ratio_delta_percent": -86.6456852002953,
+          "paired_median_delta_seconds": -11.142,
+          "optimized_faster_pairs": 10,
+          "pairs": 10,
+          "bootstrap_95_percent_interval": [
+            -86.81955061385221,
+            -86.26317844591956
+          ]
+        },
+        "cpu_user_seconds": {
+          "median_ratio_delta_percent": -21.48917034540274,
+          "paired_median_delta_seconds": -7.195897999999996,
+          "optimized_faster_pairs": 10,
+          "pairs": 10,
+          "bootstrap_95_percent_interval": [
+            -23.220982891544907,
+            -19.818775849772152
+          ]
+        },
+        "cpu_system_seconds": {
+          "median_ratio_delta_percent": -16.095093059270337,
+          "paired_median_delta_seconds": -0.3863850000000003,
+          "optimized_faster_pairs": 10,
+          "pairs": 10,
+          "bootstrap_95_percent_interval": [
+            -21.411958072929483,
+            -10.888716403462439
+          ]
+        },
+        "cpu_total_seconds": {
+          "median_ratio_delta_percent": -20.868325994881886,
+          "paired_median_delta_seconds": -7.507595000000002,
+          "optimized_faster_pairs": 10,
+          "pairs": 10,
+          "bootstrap_95_percent_interval": [
+            -22.98891228247483,
+            -19.140295602640776
+          ]
+        },
+        "frontend_seconds": {
+          "median_ratio_delta_percent": 0.919809350028844,
+          "paired_median_delta_seconds": 0.1175934999999999,
+          "optimized_faster_pairs": 4,
+          "pairs": 10,
+          "bootstrap_95_percent_interval": [
+            -2.076976611190251,
+            4.098190583764638
+          ]
+        },
+        "backend_seconds": {
+          "median_ratio_delta_percent": 0.3213269083068182,
+          "paired_median_delta_seconds": 0.058574500000000196,
+          "optimized_faster_pairs": 3,
+          "pairs": 10,
+          "bootstrap_95_percent_interval": [
+            -1.5747631914111437,
+            5.685287554708096
+          ]
+        },
+        "execute_compiler_seconds": {
+          "median_ratio_delta_percent": 1.450002916727322,
+          "paired_median_delta_seconds": 0.16574350000000138,
+          "optimized_faster_pairs": 4,
+          "pairs": 10,
+          "bootstrap_95_percent_interval": [
+            -1.7054025139185858,
+            4.218784743203141
+          ]
+        }
+      }
+    },
+    "plain": {
+      "variants": {
+        "baseline": {
+          "runs": 6,
+          "median": {
+            "wall_seconds": 18.821552644499945,
+            "compilation_wall_seconds": 6.0535,
+            "link_seconds": 12.703,
+            "cpu_user_seconds": 30.7112665,
+            "cpu_system_seconds": 2.396637,
+            "cpu_total_seconds": 33.0165075
+          },
+          "min": {
+            "wall_seconds": 18.66553108700009,
+            "compilation_wall_seconds": 5.88,
+            "link_seconds": 12.505,
+            "cpu_user_seconds": 30.362748,
+            "cpu_system_seconds": 2.159716,
+            "cpu_total_seconds": 32.735483
+          },
+          "max": {
+            "wall_seconds": 19.222264680999956,
+            "compilation_wall_seconds": 6.197,
+            "link_seconds": 12.901,
+            "cpu_user_seconds": 31.054628,
+            "cpu_system_seconds": 2.532946,
+            "cpu_total_seconds": 33.542543
+          },
+          "stdev": {
+            "wall_seconds": 0.2060595617954868,
+            "compilation_wall_seconds": 0.10670973089023639,
+            "link_seconds": 0.1374971514856458,
+            "cpu_user_seconds": 0.3169026031762228,
+            "cpu_system_seconds": 0.13680107086045293,
+            "cpu_total_seconds": 0.3365550093947493
+          }
+        },
+        "optimized": {
+          "runs": 6,
+          "median": {
+            "wall_seconds": 7.939267485999949,
+            "compilation_wall_seconds": 6.106,
+            "link_seconds": 1.7115,
+            "cpu_user_seconds": 23.662918499999996,
+            "cpu_system_seconds": 2.008552,
+            "cpu_total_seconds": 25.611234999999997
+          },
+          "min": {
+            "wall_seconds": 7.83157861299992,
+            "compilation_wall_seconds": 5.987,
+            "link_seconds": 1.675,
+            "cpu_user_seconds": 23.532232999999998,
+            "cpu_system_seconds": 1.9186100000000001,
+            "cpu_total_seconds": 25.522019
+          },
+          "max": {
+            "wall_seconds": 8.135463936000065,
+            "compilation_wall_seconds": 6.255,
+            "link_seconds": 1.753,
+            "cpu_user_seconds": 24.295965,
+            "cpu_system_seconds": 2.0761950000000002,
+            "cpu_total_seconds": 26.349823999999998
+          },
+          "stdev": {
+            "wall_seconds": 0.12155284721576373,
+            "compilation_wall_seconds": 0.10435468365147768,
+            "link_seconds": 0.028069556462473687,
+            "cpu_user_seconds": 0.28019368372871417,
+            "cpu_system_seconds": 0.06559409877623648,
+            "cpu_total_seconds": 0.31000733960666155
+          }
+        }
+      },
+      "comparison": {
+        "wall_seconds": {
+          "median_ratio_delta_percent": -57.81821172803207,
+          "paired_median_delta_seconds": -10.959584155500067,
+          "optimized_faster_pairs": 6,
+          "pairs": 6,
+          "bootstrap_95_percent_interval": [
+            -58.854606480164215,
+            -56.8887303856471
+          ]
+        },
+        "compilation_wall_seconds": {
+          "median_ratio_delta_percent": 0.8672668704055475,
+          "paired_median_delta_seconds": 0.08350000000000035,
+          "optimized_faster_pairs": 2,
+          "pairs": 6,
+          "bootstrap_95_percent_interval": [
+            -1.8498899845163397,
+            3.7296037296037365
+          ]
+        },
+        "link_seconds": {
+          "median_ratio_delta_percent": -86.52680469180508,
+          "paired_median_delta_seconds": -11.01,
+          "optimized_faster_pairs": 6,
+          "pairs": 6,
+          "bootstrap_95_percent_interval": [
+            -86.68274279491268,
+            -86.19218768513764
+          ]
+        },
+        "cpu_user_seconds": {
+          "median_ratio_delta_percent": -22.950365788398873,
+          "paired_median_delta_seconds": -7.1338120000000025,
+          "optimized_faster_pairs": 6,
+          "pairs": 6,
+          "bootstrap_95_percent_interval": [
+            -23.81469679191194,
+            -21.060353055236202
+          ]
+        },
+        "cpu_system_seconds": {
+          "median_ratio_delta_percent": -16.192898632542196,
+          "paired_median_delta_seconds": -0.3880849999999999,
+          "optimized_faster_pairs": 6,
+          "pairs": 6,
+          "bootstrap_95_percent_interval": [
+            -22.107527940840242,
+            -8.87597593414392
+          ]
+        },
+        "cpu_total_seconds": {
+          "median_ratio_delta_percent": -22.429000099419984,
+          "paired_median_delta_seconds": -7.356548500000002,
+          "optimized_faster_pairs": 6,
+          "pairs": 6,
+          "bootstrap_95_percent_interval": [
+            -23.531793330628847,
+            -20.738821685217847
+          ]
+        }
+      }
+    }
+  }
+}

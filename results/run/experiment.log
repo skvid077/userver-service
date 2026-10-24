@@ -1,0 +1,414 @@
+/study/vendor/ClangBuildAnalyzer-55447756.tar.gz: OK
+Warning: Failed to run ruff ([Errno 2] No such file or directory: 'ruff'), skipping.
+patching file CMakeLists.txt
+Audit passed: identical sources and compiler flags; only linker selection differs; ccache off.
+[1/40] profile-baseline-warmup-1
+profile-baseline-warmup-1: wall=21.341s compile=6.644s link=14.501 exit=0 tasks=10 traces=10
+[2/40] profile-optimized-warmup-1
+profile-optimized-warmup-1: wall=8.635s compile=6.676s link=1.774 exit=0 tasks=10 traces=10
+[3/40] profile-optimized-warmup-2
+profile-optimized-warmup-2: wall=8.349s compile=6.546s link=1.679 exit=0 tasks=10 traces=10
+[4/40] profile-baseline-warmup-2
+profile-baseline-warmup-2: wall=19.955s compile=6.979s link=12.852 exit=0 tasks=10 traces=10
+[5/40] profile-optimized-01
+profile-optimized-01: wall=8.328s compile=6.493s link=1.707 exit=0 tasks=10 traces=10
+[6/40] profile-baseline-01
+profile-baseline-01: wall=20.140s compile=6.886s link=13.119 exit=0 tasks=10 traces=10
+[7/40] profile-optimized-02
+profile-optimized-02: wall=8.799s compile=6.833s link=1.839 exit=0 tasks=10 traces=10
+[8/40] profile-baseline-02
+profile-baseline-02: wall=19.979s compile=6.606s link=13.241 exit=0 tasks=10 traces=10
+[9/40] profile-baseline-03
+profile-baseline-03: wall=19.320s compile=6.447s link=12.748 exit=0 tasks=10 traces=10
+[10/40] profile-optimized-03
+profile-optimized-03: wall=8.850s compile=7.025s link=1.704 exit=0 tasks=10 traces=10
+[11/40] profile-optimized-04
+profile-optimized-04: wall=8.543s compile=6.619s link=1.797 exit=0 tasks=10 traces=10
+[12/40] profile-baseline-04
+profile-baseline-04: wall=19.479s compile=6.350s link=12.999 exit=0 tasks=10 traces=10
+[13/40] profile-baseline-05
+profile-baseline-05: wall=19.305s compile=6.453s link=12.723 exit=0 tasks=10 traces=10
+[14/40] profile-optimized-05
+profile-optimized-05: wall=8.333s compile=6.451s link=1.759 exit=0 tasks=10 traces=10
+[15/40] profile-baseline-06
+profile-baseline-06: wall=19.570s compile=6.537s link=12.906 exit=0 tasks=10 traces=10
+[16/40] profile-optimized-06
+profile-optimized-06: wall=8.428s compile=6.535s link=1.763 exit=0 tasks=10 traces=10
+[17/40] profile-optimized-07
+profile-optimized-07: wall=8.282s compile=6.455s link=1.693 exit=0 tasks=10 traces=10
+[18/40] profile-baseline-07
+profile-baseline-07: wall=19.533s compile=6.574s link=12.834 exit=0 tasks=10 traces=10
+[19/40] profile-baseline-08
+profile-baseline-08: wall=19.548s compile=6.626s link=12.79 exit=0 tasks=10 traces=10
+[20/40] profile-optimized-08
+profile-optimized-08: wall=8.662s compile=6.800s link=1.727 exit=0 tasks=10 traces=10
+[21/40] profile-optimized-09
+profile-optimized-09: wall=8.491s compile=6.658s link=1.703 exit=0 tasks=10 traces=10
+[22/40] profile-baseline-09
+profile-baseline-09: wall=19.562s compile=6.532s link=12.903 exit=0 tasks=10 traces=10
+[23/40] profile-baseline-10
+profile-baseline-10: wall=19.447s compile=6.497s link=12.82 exit=0 tasks=10 traces=10
+[24/40] profile-optimized-10
+profile-optimized-10: wall=8.210s compile=6.371s link=1.71 exit=0 tasks=10 traces=10
+[25/40] plain-baseline-warmup-1
+plain-baseline-warmup-1: wall=19.271s compile=6.154s link=12.909 exit=0 tasks=10 traces=0
+[26/40] plain-optimized-warmup-1
+plain-optimized-warmup-1: wall=7.924s compile=6.031s link=1.703 exit=0 tasks=10 traces=0
+[27/40] plain-optimized-warmup-2
+plain-optimized-warmup-2: wall=7.810s compile=5.945s link=1.737 exit=0 tasks=10 traces=0
+[28/40] plain-baseline-warmup-2
+plain-baseline-warmup-2: wall=18.775s compile=5.926s link=12.719 exit=0 tasks=10 traces=0
+[29/40] plain-baseline-01
+plain-baseline-01: wall=18.764s compile=5.979s link=12.652 exit=0 tasks=10 traces=0
+[30/40] plain-optimized-01
+plain-optimized-01: wall=8.135s compile=6.255s link=1.753 exit=0 tasks=10 traces=0
+[31/40] plain-optimized-02
+plain-optimized-02: wall=7.857s compile=6.022s link=1.712 exit=0 tasks=10 traces=0
+[32/40] plain-baseline-02
+plain-baseline-02: wall=19.222s compile=6.197s link=12.901 exit=0 tasks=10 traces=0
+[33/40] plain-optimized-03
+plain-optimized-03: wall=8.004s compile=6.134s link=1.743 exit=0 tasks=10 traces=0
+[34/40] plain-baseline-03
+plain-baseline-03: wall=19.013s compile=6.074s link=12.81 exit=0 tasks=10 traces=0
+[35/40] plain-baseline-04
+plain-baseline-04: wall=18.746s compile=5.880s link=12.739 exit=0 tasks=10 traces=0
+[36/40] plain-optimized-04
+plain-optimized-04: wall=7.832s compile=5.987s link=1.711 exit=0 tasks=10 traces=0
+[37/40] plain-baseline-05
+plain-baseline-05: wall=18.666s compile=6.033s link=12.505 exit=0 tasks=10 traces=0
+[38/40] plain-optimized-05
+plain-optimized-05: wall=8.043s compile=6.205s link=1.705 exit=0 tasks=10 traces=0
+[39/40] plain-optimized-06
+plain-optimized-06: wall=7.875s compile=6.078s link=1.675 exit=0 tasks=10 traces=0
+[40/40] plain-baseline-06
+plain-baseline-06: wall=18.879s compile=6.082s link=12.667 exit=0 tasks=10 traces=0
+profile {
+  "variants": {
+    "optimized": {
+      "runs": 10,
+      "median": {
+        "wall_seconds": 8.459415830999973,
+        "compilation_wall_seconds": 6.577,
+        "link_seconds": 1.7185000000000001,
+        "cpu_user_seconds": 25.497042,
+        "cpu_system_seconds": 2.08567,
+        "cpu_total_seconds": 27.647385500000002,
+        "frontend_seconds": 17.814612,
+        "backend_seconds": 3.9819205,
+        "execute_compiler_seconds": 22.077959999999997
+      },
+      "min": {
+        "wall_seconds": 8.210218842000018,
+        "compilation_wall_seconds": 6.371,
+        "link_seconds": 1.693,
+        "cpu_user_seconds": 24.575686,
+        "cpu_system_seconds": 1.9063519999999998,
+        "cpu_total_seconds": 26.575082000000002,
+        "frontend_seconds": 16.907816,
+        "backend_seconds": 3.8869409999999998,
+        "execute_compiler_seconds": 21.055059
+      },
+      "max": {
+        "wall_seconds": 8.84999926300003,
+        "compilation_wall_seconds": 7.025,
+        "link_seconds": 1.839,
+        "cpu_user_seconds": 26.673677,
+        "cpu_system_seconds": 2.365195,
+        "cpu_total_seconds": 28.711603,
+        "frontend_seconds": 18.577122,
+        "backend_seconds": 4.387277000000001,
+        "execute_compiler_seconds": 23.161002000000003
+      },
+      "stdev": {
+        "wall_seconds": 0.21960121278849246,
+        "compilation_wall_seconds": 0.20661827390410348,
+        "link_seconds": 0.048271915000109265,
+        "cpu_user_seconds": 0.6665906419886529,
+        "cpu_system_seconds": 0.13012764073396893,
+        "cpu_total_seconds": 0.7208130992866396,
+        "frontend_seconds": 0.5540672121454413,
+        "backend_seconds": 0.17198766704867097,
+        "execute_compiler_seconds": 0.6835397193976529
+      }
+    },
+    "baseline": {
+      "runs": 10,
+      "median": {
+        "wall_seconds": 19.540642688499986,
+        "compilation_wall_seconds": 6.5344999999999995,
+        "link_seconds": 12.868500000000001,
+        "cpu_user_seconds": 32.475828,
+        "cpu_system_seconds": 2.4857545,
+        "cpu_total_seconds": 34.9384565,
+        "frontend_seconds": 17.652245,
+        "backend_seconds": 3.9691665,
+        "execute_compiler_seconds": 21.7624045
+      },
+      "min": {
+        "wall_seconds": 19.305141037999988,
+        "compilation_wall_seconds": 6.35,
+        "link_seconds": 12.723,
+        "cpu_user_seconds": 32.044285,
+        "cpu_system_seconds": 2.278168,
+        "cpu_total_seconds": 34.322453,
+        "frontend_seconds": 17.131087,
+        "backend_seconds": 3.9155270000000004,
+        "execute_compiler_seconds": 21.249606
+      },
+      "max": {
+        "wall_seconds": 20.140158377999967,
+        "compilation_wall_seconds": 6.886,
+        "link_seconds": 13.241,
+        "cpu_user_seconds": 33.560766,
+        "cpu_system_seconds": 2.704505,
+        "cpu_total_seconds": 36.265271,
+        "frontend_seconds": 18.316504000000002,
+        "backend_seconds": 4.2733669999999995,
+        "execute_compiler_seconds": 22.793689999999998
+      },
+      "stdev": {
+        "wall_seconds": 0.2680116106538325,
+        "compilation_wall_seconds": 0.14364214794643906,
+        "link_seconds": 0.16689587572295883,
+        "cpu_user_seconds": 0.45278734609777554,
+        "cpu_system_seconds": 0.12793166114596757,
+        "cpu_total_seconds": 0.5415043661777493,
+        "frontend_seconds": 0.34014561458327497,
+        "backend_seconds": 0.10889934106850932,
+        "execute_compiler_seconds": 0.4225230582256096
+      }
+    }
+  },
+  "comparison": {
+    "wall_seconds": {
+      "median_ratio_delta_percent": -56.7086100193701,
+      "paired_median_delta_seconds": -11.106720592000073,
+      "optimized_faster_pairs": 10,
+      "pairs": 10,
+      "bootstrap_95_percent_interval": [
+        -57.48347750669877,
+        -55.54579840212745
+      ]
+    },
+    "compilation_wall_seconds": {
+      "median_ratio_delta_percent": 0.6503940622847981,
+      "paired_median_delta_seconds": 0.06200000000000028,
+      "optimized_faster_pairs": 5,
+      "pairs": 10,
+      "bootstrap_95_percent_interval": [
+        -1.5211439002129512,
+        3.974895397489542
+      ]
+    },
+    "link_seconds": {
+      "median_ratio_delta_percent": -86.6456852002953,
+      "paired_median_delta_seconds": -11.142,
+      "optimized_faster_pairs": 10,
+      "pairs": 10,
+      "bootstrap_95_percent_interval": [
+        -86.81955061385221,
+        -86.26317844591956
+      ]
+    },
+    "cpu_user_seconds": {
+      "median_ratio_delta_percent": -21.48917034540274,
+      "paired_median_delta_seconds": -7.195897999999996,
+      "optimized_faster_pairs": 10,
+      "pairs": 10,
+      "bootstrap_95_percent_interval": [
+        -23.220982891544907,
+        -19.818775849772152
+      ]
+    },
+    "cpu_system_seconds": {
+      "median_ratio_delta_percent": -16.095093059270337,
+      "paired_median_delta_seconds": -0.3863850000000003,
+      "optimized_faster_pairs": 10,
+      "pairs": 10,
+      "bootstrap_95_percent_interval": [
+        -21.411958072929483,
+        -10.888716403462439
+      ]
+    },
+    "cpu_total_seconds": {
+      "median_ratio_delta_percent": -20.868325994881886,
+      "paired_median_delta_seconds": -7.507595000000002,
+      "optimized_faster_pairs": 10,
+      "pairs": 10,
+      "bootstrap_95_percent_interval": [
+        -22.98891228247483,
+        -19.140295602640776
+      ]
+    },
+    "frontend_seconds": {
+      "median_ratio_delta_percent": 0.919809350028844,
+      "paired_median_delta_seconds": 0.1175934999999999,
+      "optimized_faster_pairs": 4,
+      "pairs": 10,
+      "bootstrap_95_percent_interval": [
+        -2.076976611190251,
+        4.098190583764638
+      ]
+    },
+    "backend_seconds": {
+      "median_ratio_delta_percent": 0.3213269083068182,
+      "paired_median_delta_seconds": 0.058574500000000196,
+      "optimized_faster_pairs": 3,
+      "pairs": 10,
+      "bootstrap_95_percent_interval": [
+        -1.5747631914111437,
+        5.685287554708096
+      ]
+    },
+    "execute_compiler_seconds": {
+      "median_ratio_delta_percent": 1.450002916727322,
+      "paired_median_delta_seconds": 0.16574350000000138,
+      "optimized_faster_pairs": 4,
+      "pairs": 10,
+      "bootstrap_95_percent_interval": [
+        -1.7054025139185858,
+        4.218784743203141
+      ]
+    }
+  }
+}
+plain {
+  "variants": {
+    "baseline": {
+      "runs": 6,
+      "median": {
+        "wall_seconds": 18.821552644499945,
+        "compilation_wall_seconds": 6.0535,
+        "link_seconds": 12.703,
+        "cpu_user_seconds": 30.7112665,
+        "cpu_system_seconds": 2.396637,
+        "cpu_total_seconds": 33.0165075
+      },
+      "min": {
+        "wall_seconds": 18.66553108700009,
+        "compilation_wall_seconds": 5.88,
+        "link_seconds": 12.505,
+        "cpu_user_seconds": 30.362748,
+        "cpu_system_seconds": 2.159716,
+        "cpu_total_seconds": 32.735483
+      },
+      "max": {
+        "wall_seconds": 19.222264680999956,
+        "compilation_wall_seconds": 6.197,
+        "link_seconds": 12.901,
+        "cpu_user_seconds": 31.054628,
+        "cpu_system_seconds": 2.532946,
+        "cpu_total_seconds": 33.542543
+      },
+      "stdev": {
+        "wall_seconds": 0.2060595617954868,
+        "compilation_wall_seconds": 0.10670973089023639,
+        "link_seconds": 0.1374971514856458,
+        "cpu_user_seconds": 0.3169026031762228,
+        "cpu_system_seconds": 0.13680107086045293,
+        "cpu_total_seconds": 0.3365550093947493
+      }
+    },
+    "optimized": {
+      "runs": 6,
+      "median": {
+        "wall_seconds": 7.939267485999949,
+        "compilation_wall_seconds": 6.106,
+        "link_seconds": 1.7115,
+        "cpu_user_seconds": 23.662918499999996,
+        "cpu_system_seconds": 2.008552,
+        "cpu_total_seconds": 25.611234999999997
+      },
+      "min": {
+        "wall_seconds": 7.83157861299992,
+        "compilation_wall_seconds": 5.987,
+        "link_seconds": 1.675,
+        "cpu_user_seconds": 23.532232999999998,
+        "cpu_system_seconds": 1.9186100000000001,
+        "cpu_total_seconds": 25.522019
+      },
+      "max": {
+        "wall_seconds": 8.135463936000065,
+        "compilation_wall_seconds": 6.255,
+        "link_seconds": 1.753,
+        "cpu_user_seconds": 24.295965,
+        "cpu_system_seconds": 2.0761950000000002,
+        "cpu_total_seconds": 26.349823999999998
+      },
+      "stdev": {
+        "wall_seconds": 0.12155284721576373,
+        "compilation_wall_seconds": 0.10435468365147768,
+        "link_seconds": 0.028069556462473687,
+        "cpu_user_seconds": 0.28019368372871417,
+        "cpu_system_seconds": 0.06559409877623648,
+        "cpu_total_seconds": 0.31000733960666155
+      }
+    }
+  },
+  "comparison": {
+    "wall_seconds": {
+      "median_ratio_delta_percent": -57.81821172803207,
+      "paired_median_delta_seconds": -10.959584155500067,
+      "optimized_faster_pairs": 6,
+      "pairs": 6,
+      "bootstrap_95_percent_interval": [
+        -58.854606480164215,
+        -56.8887303856471
+      ]
+    },
+    "compilation_wall_seconds": {
+      "median_ratio_delta_percent": 0.8672668704055475,
+      "paired_median_delta_seconds": 0.08350000000000035,
+      "optimized_faster_pairs": 2,
+      "pairs": 6,
+      "bootstrap_95_percent_interval": [
+        -1.8498899845163397,
+        3.7296037296037365
+      ]
+    },
+    "link_seconds": {
+      "median_ratio_delta_percent": -86.52680469180508,
+      "paired_median_delta_seconds": -11.01,
+      "optimized_faster_pairs": 6,
+      "pairs": 6,
+      "bootstrap_95_percent_interval": [
+        -86.68274279491268,
+        -86.19218768513764
+      ]
+    },
+    "cpu_user_seconds": {
+      "median_ratio_delta_percent": -22.950365788398873,
+      "paired_median_delta_seconds": -7.1338120000000025,
+      "optimized_faster_pairs": 6,
+      "pairs": 6,
+      "bootstrap_95_percent_interval": [
+        -23.81469679191194,
+        -21.060353055236202
+      ]
+    },
+    "cpu_system_seconds": {
+      "median_ratio_delta_percent": -16.192898632542196,
+      "paired_median_delta_seconds": -0.3880849999999999,
+      "optimized_faster_pairs": 6,
+      "pairs": 6,
+      "bootstrap_95_percent_interval": [
+        -22.107527940840242,
+        -8.87597593414392
+      ]
+    },
+    "cpu_total_seconds": {
+      "median_ratio_delta_percent": -22.429000099419984,
+      "paired_median_delta_seconds": -7.356548500000002,
+      "optimized_faster_pairs": 6,
+      "pairs": 6,
+      "bootstrap_95_percent_interval": [
+        -23.531793330628847,
+        -20.738821685217847
+      ]
+    }
+  }
+}
+Exported 40 builds to /results/all-results.csv; warmup=1 marks warmup runs.
+Both GNU-ld and LLD unit tests passed; configuration schemas and dynamic dependencies of all service builds are identical. ELF .comment confirms Ubuntu LLD 18.1.8 only in optimized binaries; debug sections and symbol tables preserved.
+
+Experiment complete.

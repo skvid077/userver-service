@@ -1,0 +1,6 @@
+{
+  "build_exit_code": 1,
+  "all_compile_commands_use_gz_zstd": true,
+  "expected_failure": true,
+  "resolution_in_measured_builds": "USERVER_DEBUG_INFO_COMPRESSION=z for both linkers"
+}

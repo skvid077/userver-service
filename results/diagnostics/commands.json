@@ -1,0 +1,34 @@
+[
+  [
+    "userver-create-service",
+    "--grpc",
+    "--mongo",
+    "--postgresql",
+    "/workspace/build_study"
+  ],
+  [
+    "cmake",
+    "-S",
+    "/workspace/build_study",
+    "-B",
+    "/workspace/default-compression",
+    "-G",
+    "Ninja",
+    "-DCMAKE_BUILD_TYPE=Release",
+    "-DCMAKE_C_COMPILER=clang-18",
+    "-DCMAKE_CXX_COMPILER=clang++-18",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON",
+    "-DUSERVER_USE_LD=",
+    "-DUSERVER_USE_CCACHE=OFF",
+    "-DUSERVER_FEATURE_TESTSUITE=OFF"
+  ],
+  [
+    "cmake",
+    "--build",
+    "/workspace/default-compression",
+    "--target",
+    "build_study",
+    "--parallel",
+    "4"
+  ]
+]
