@@ -1,0 +1,168 @@
+-- The CXX compiler identification is Clang 18.1.8
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++-18 - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Userver components: core;grpc;mongo;postgresql
+-- Modules type search priority order: .so;.a (Default ordered)
+-- Userver components: chaotic;core;universal
+-- Userver components: universal
+-- Userver components: universal
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test Iconv_IS_BUILT_IN
+-- Performing Test Iconv_IS_BUILT_IN - Success
+-- Found Iconv: built in to C library
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+-- dpkg-query version of libjemalloc-dev: 5.2.1-4ubuntu1
+-- Found jemalloc: /usr/lib/x86_64-linux-gnu/libjemalloc.so
+-- jemalloc include directories: /usr/include
+-- jemalloc libraries: /usr/lib/x86_64-linux-gnu/libjemalloc.so
+-- dpkg-query version of libfmt-dev: 8.1.1+ds1-2
+-- Found fmt: /usr/lib/x86_64-linux-gnu/libfmt.so
+-- fmt include directories: /usr/include
+-- fmt libraries: /usr/lib/x86_64-linux-gnu/libfmt.so
+-- dpkg-query version of libcctz-dev: 2.3+dfsg1-3build1
+-- Found cctz: /usr/lib/x86_64-linux-gnu/libcctz.so
+-- cctz include directories: /usr/include
+-- cctz libraries: /usr/lib/x86_64-linux-gnu/libcctz.so
+-- dpkg-query version of libre2-dev: 20220201+dfsg-1
+-- Found re2: /usr/lib/x86_64-linux-gnu/libre2.so
+-- re2 include directories: /usr/include
+-- re2 libraries: /usr/lib/x86_64-linux-gnu/libre2.so
+-- dpkg-query version of libcrypto++-dev: 8.6.0-2ubuntu1
+-- Found cryptopp: /usr/lib/x86_64-linux-gnu/libcryptopp.so
+-- cryptopp include directories: /usr/include
+-- cryptopp libraries: /usr/lib/x86_64-linux-gnu/libcryptopp.so
+-- dpkg-query version of libzstd-dev: 1.4.8+dfsg-3build1
+-- Found zstd: /usr/lib/x86_64-linux-gnu/libzstd.so
+-- zstd include directories: /usr/include
+-- zstd libraries: /usr/lib/x86_64-linux-gnu/libzstd.so
+-- dpkg-query version of libyaml-cpp-dev: 0.7.0+dfsg-8build1
+-- Found yaml-cpp: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so
+-- yaml-cpp include directories: /usr/include
+-- yaml-cpp libraries: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so
+-- Python: python3
+-- Found 'uv', using it for Python virtual environments by default
+-- C compiler: clang-18
+-- C++ compiler: /usr/bin/clang++-18
+-- C++ standard 20
+-- Using the default system linker, probably GNU ld
+-- LTO: disabled (user request)
+-- Using compiler debug info compression: z
+-- Using linker debug info compression: z
+-- Linker global flags:  -Wl,--gc-sections
+-- ccache: disabled
+-- Release build: CMAKE_BUILD_TYPE == 'Release'
+-- dpkg-query version of libbenchmark-dev: 1.6.1-1
+-- Found UserverGBench: /usr/lib/x86_64-linux-gnu/libbenchmark_main.a;/usr/lib/x86_64-linux-gnu/libbenchmark.so
+-- UserverGBench include directories: /usr/include
+-- UserverGBench libraries: /usr/lib/x86_64-linux-gnu/libbenchmark_main.a;/usr/lib/x86_64-linux-gnu/libbenchmark.so
+-- Found chaotic-gen: /usr/bin/chaotic-gen
+-- Found chaotic-gen-dynamic-configs: /usr/bin/chaotic-gen-dynamic-configs
+-- Found chaotic-openapi-gen: /usr/bin/chaotic-openapi-gen
+-- Found clang-format: /usr/bin/clang-format
+-- Setting up the venv at /workspace/plain-baseline/venv-userver-chaotic
+Using CPython 3.10.12 interpreter at: /usr/bin/python3
+Creating virtual environment at: plain-baseline/venv-userver-chaotic
+-- Installing requirements:
+--   /usr/lib/cmake/userver/chaotic/requirements.txt
+Using Python 3.10.12 environment at: plain-baseline/venv-userver-chaotic
+Resolved 10 packages in 369ms
+Prepared 10 packages in 1ms
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 10 packages in 65ms
+ + annotated-types==0.8.0
+ + jinja2==3.1.6
+ + markupsafe==3.0.4
+ + pydantic==2.14.1
+ + pydantic-core==2.50.1
+ + pyyaml==6.0.3
+ + six==1.17.0
+ + transliterate==1.10.2
+ + typing-extensions==4.16.0
+ + typing-inspection==0.4.4
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")
+-- dpkg-query version of libc-ares-dev: 1.18.1-1ubuntu0.22.04.3
+-- Found c-ares: /usr/lib/x86_64-linux-gnu/libcares.so
+-- c-ares include directories: /usr/include
+-- c-ares libraries: /usr/lib/x86_64-linux-gnu/libcares.so
+-- dpkg-query version of libnghttp2-dev: 1.43.0-1ubuntu0.4
+-- Found libnghttp2: /usr/lib/x86_64-linux-gnu/libnghttp2.so
+-- libnghttp2 include directories: /usr/include
+-- libnghttp2 libraries: /usr/lib/x86_64-linux-gnu/libnghttp2.so
+-- dpkg-query version of libev-dev: 4.33-1
+-- Found libev: /usr/lib/x86_64-linux-gnu/libev.so
+-- libev include directories: /usr/include
+-- libev libraries: /usr/lib/x86_64-linux-gnu/libev.so
+-- dpkg-query version of liburing-dev: 2.1-2build1
+-- Found liburing: /usr/lib/x86_64-linux-gnu/liburing.so
+-- liburing include directories: /usr/include
+-- liburing libraries: /usr/lib/x86_64-linux-gnu/liburing.so
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found suitable version "7.81.0", minimum required is "7.68")
+-- Userver components: chaotic;core;grpc
+-- Found Protobuf: /usr/local/lib/libprotobuf.a (found version "3.21.12")
+-- Protobuf version: 3.21.12
+-- Protobuf compiler: /usr/local/bin/protoc
+-- gRPC version: 1.54.3
+-- Setting up the venv at /workspace/plain-baseline/venv-userver-grpc
+Using CPython 3.10.12 interpreter at: /usr/bin/python3
+Creating virtual environment at: plain-baseline/venv-userver-grpc
+-- Installing requirements:
+--   /usr/lib/cmake/userver/grpc/requirements-4.txt
+Using Python 3.10.12 environment at: plain-baseline/venv-userver-grpc
+Resolved 3 packages in 248ms
+Prepared 3 packages in 0.72ms
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 3 packages in 19ms
+ + jinja2==3.1.6
+ + markupsafe==3.0.4
+ + protobuf==4.25.9
+-- Userver components: chaotic;core;mongo
+-- Mongoc: using config version: (bson: 1.21.0, mongoc: 1.21.0)
+-- Userver components: chaotic;core;postgresql;universal
+-- libpq patch applied
+-- Found ldap: /usr/lib/x86_64-linux-gnu/libldap.so
+-- dpkg-query version of libpq-dev: 14.24-0ubuntu0.22.04.1
+-- Found PostgreSQLInternal: /usr/lib/x86_64-linux-gnu/libpq.a;/usr/lib/postgresql/14/lib/libpgcommon.a;/usr/lib/postgresql/14/lib/libpgcommon_shlib.a;/usr/lib/postgresql/14/lib/libpgport.a
+-- PostgreSQLInternal include directories: /usr/include/postgresql/14/server;/usr/include/postgresql/internal;/usr/include/postgresql
+-- PostgreSQLInternal libraries: /usr/lib/x86_64-linux-gnu/libpq.a;/usr/lib/postgresql/14/lib/libpgcommon.a;/usr/lib/postgresql/14/lib/libpgcommon_shlib.a;/usr/lib/postgresql/14/lib/libpgport.a
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")
+-- dpkg-query version of libkrb5-dev: 1.19.2-2ubuntu0.10
+-- Found GssApi: /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so
+-- GssApi include directories: /usr/include/gssapi
+-- GssApi libraries: /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so
+-- Looking for sin in m
+-- Looking for sin in m - found
+-- Setting up the venv at /workspace/plain-baseline/venv-userver-sql
+Using CPython 3.10.12 interpreter at: /usr/bin/python3
+Creating virtual environment at: plain-baseline/venv-userver-sql
+-- Installing requirements:
+--   /usr/lib/cmake/userver/scripts/sql/requirements.txt
+--   /usr/lib/cmake/userver/scripts/sqldto/sqldto/generator/requirements.txt
+Using Python 3.10.12 environment at: plain-baseline/venv-userver-sql
+Resolved 8 packages in 298ms
+Prepared 8 packages in 1ms
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 8 packages in 60ms
+ + annotated-types==0.8.0
+ + jinja2==3.1.6
+ + markupsafe==3.0.4
+ + pydantic==2.14.1
+ + pydantic-core==2.50.1
+ + sqlparse==0.6.0
+ + typing-extensions==4.16.0
+ + typing-inspection==0.4.4
+-- Scheduled build-time generation of protos in /workspace/build_study/proto
+-- Testsuite test testsuite-build_study is disabled
+-- Configuring done (2.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/plain-baseline

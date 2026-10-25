@@ -1,0 +1,203 @@
+Analyzing build trace from '/results/profile-baseline-10/capture.bin'...
+**** Time summary:
+Compilation (10 times):
+  Parsing (frontend):           20.3 s
+  Codegen & opts (backend):      5.2 s
+
+**** Files that took longest to parse (compiler frontend):
+  4475 ms: /workspace/profile-baseline/CMakeFiles/build_study_proto.dir/proto/handlers/hello_service.usrv.pb.cpp.o
+  3047 ms: /workspace/profile-baseline/CMakeFiles/build_study.dir/src/main.cpp.o
+  2893 ms: /workspace/profile-baseline/CMakeFiles/build_study_proto.dir/proto/handlers/hello_client.usrv.pb.cpp.o
+  2192 ms: /workspace/profile-baseline/CMakeFiles/build_study_objs.dir/src/hello_grpc.cpp.o
+  2144 ms: /workspace/profile-baseline/CMakeFiles/build_study_objs.dir/src/hello_postgres.cpp.o
+  1906 ms: /workspace/profile-baseline/CMakeFiles/build_study_proto.dir/proto/handlers/hello.grpc.pb.cc.o
+  1134 ms: /workspace/profile-baseline/CMakeFiles/build_study_objs.dir/src/hello_mongo.cpp.o
+  1081 ms: /workspace/profile-baseline/CMakeFiles/build_study_proto.dir/proto/handlers/hello.pb.cc.o
+   976 ms: /workspace/profile-baseline/CMakeFiles/build_study_objs.dir/src/hello.cpp.o
+   452 ms: /workspace/profile-baseline/CMakeFiles/build_study_objs.dir/src/greeting.cpp.o
+
+**** Files that took longest to codegen (compiler backend):
+  1837 ms: /workspace/profile-baseline/CMakeFiles/build_study_proto.dir/proto/handlers/hello.grpc.pb.cc.o
+  1259 ms: /workspace/profile-baseline/CMakeFiles/build_study_proto.dir/proto/handlers/hello_client.usrv.pb.cpp.o
+   909 ms: /workspace/profile-baseline/CMakeFiles/build_study_proto.dir/proto/handlers/hello_service.usrv.pb.cpp.o
+   455 ms: /workspace/profile-baseline/CMakeFiles/build_study.dir/src/main.cpp.o
+   421 ms: /workspace/profile-baseline/CMakeFiles/build_study_objs.dir/src/hello_postgres.cpp.o
+   118 ms: /workspace/profile-baseline/CMakeFiles/build_study_objs.dir/src/hello_grpc.cpp.o
+    96 ms: /workspace/profile-baseline/CMakeFiles/build_study_proto.dir/proto/handlers/hello.pb.cc.o
+    57 ms: /workspace/profile-baseline/CMakeFiles/build_study_objs.dir/src/hello_mongo.cpp.o
+    29 ms: /workspace/profile-baseline/CMakeFiles/build_study_objs.dir/src/hello.cpp.o
+    15 ms: /workspace/profile-baseline/CMakeFiles/build_study_objs.dir/src/greeting.cpp.o
+
+**** Templates that took longest to instantiate:
+   320 ms: std::unique_ptr<std::thread::_State> (3 times, avg 106 ms)
+   313 ms: std::__uniq_ptr_data<std::thread::_State, std::default_delete<std::t... (3 times, avg 104 ms)
+   313 ms: std::__uniq_ptr_impl<std::thread::_State, std::default_delete<std::t... (3 times, avg 104 ms)
+   212 ms: std::unordered_map<std::basic_string<char>, userver::yaml_config::Ya... (3 times, avg 70 ms)
+   210 ms: std::_Hashtable<std::basic_string<char>, std::pair<const std::basic_... (3 times, avg 70 ms)
+   205 ms: std::unordered_map<userver::utils::statistics::impl::MetricKey, std:... (1 times, avg 205 ms)
+   205 ms: std::_TupleConstraints<true, std::thread::_State *, std::default_del... (3 times, avg 68 ms)
+   205 ms: std::__and_<std::is_constructible<std::thread::_State *, std::thread... (3 times, avg 68 ms)
+   204 ms: std::_Hashtable<userver::utils::statistics::impl::MetricKey, std::pa... (1 times, avg 204 ms)
+   204 ms: std::search<const char *, const char *> (3 times, avg 68 ms)
+   203 ms: std::__detail::_Insert<std::basic_string<char>, std::pair<const std:... (3 times, avg 67 ms)
+   203 ms: std::__search<const char *, const char *, __gnu_cxx::__ops::_Iter_eq... (2 times, avg 101 ms)
+   203 ms: std::__detail::_Insert_base<std::basic_string<char>, std::pair<const... (3 times, avg 67 ms)
+   202 ms: std::is_constructible<std::thread::_State *, std::thread::_State *co... (1 times, avg 202 ms)
+   201 ms: std::__detail::_Insert<userver::utils::statistics::impl::MetricKey, ... (1 times, avg 201 ms)
+   198 ms: std::allocator<std::pair<const std::basic_string<char>, userver::yam... (1 times, avg 198 ms)
+   198 ms: __gnu_cxx::new_allocator<std::pair<const std::basic_string<char>, us... (1 times, avg 198 ms)
+   193 ms: std::is_error_code_enum<__gnu_cxx::__normal_iterator<char *, std::ba... (1 times, avg 193 ms)
+   149 ms: userver::components::ComponentList::Append<userver::server::handlers... (3 times, avg 49 ms)
+   106 ms: userver::ugrpc::server::impl::MakeServiceWorker<handlers::api::Hello... (1 times, avg 106 ms)
+    97 ms: std::make_unique<userver::ugrpc::server::impl::ServiceWorkerImpl<han... (1 times, avg 97 ms)
+    96 ms: std::is_nothrow_default_constructible<std::allocator<std::basic_stri... (3 times, avg 32 ms)
+    96 ms: userver::ugrpc::server::impl::ServiceWorkerImpl<handlers::api::Hello... (1 times, avg 96 ms)
+    95 ms: std::_TupleConstraints<true, std::thread::_State *, std::default_del... (1 times, avg 95 ms)
+    91 ms: std::variant<std::basic_string<char>, int, bool, long, long long, un... (7 times, avg 13 ms)
+    90 ms: grpc::internal::CallbackBidiHandler<grpc::ByteBuffer, grpc::ByteBuff... (3 times, avg 30 ms)
+    90 ms: grpc::internal::CallbackBidiHandler<grpc::ByteBuffer, grpc::ByteBuff... (3 times, avg 30 ms)
+    86 ms: userver::utils::Box<userver::ugrpc::client::impl::ClientData>::Box<u... (1 times, avg 86 ms)
+    85 ms: std::make_unique<userver::ugrpc::client::impl::ClientData, userver::... (1 times, avg 85 ms)
+    85 ms: std::reverse_iterator<std::_Bit_iterator> (9 times, avg 9 ms)
+
+**** Template sets that took longest to instantiate:
+  1327 ms: std::unique_ptr<$> (165 times, avg 8 ms)
+  1138 ms: std::__uniq_ptr_data<$> (165 times, avg 6 ms)
+  1129 ms: std::__uniq_ptr_impl<$> (165 times, avg 6 ms)
+   867 ms: std::_Hashtable<$> (110 times, avg 7 ms)
+   822 ms: std::unordered_map<$> (75 times, avg 10 ms)
+   574 ms: std::__detail::_Insert<$> (88 times, avg 6 ms)
+   560 ms: std::__and_<$> (374 times, avg 1 ms)
+   465 ms: std::optional<$> (136 times, avg 3 ms)
+   436 ms: std::tuple<$> (182 times, avg 2 ms)
+   424 ms: std::_TupleConstraints<$>::__is_implicitly_constructible<$> (210 times, avg 2 ms)
+   373 ms: std::__detail::_Insert_base<$> (88 times, avg 4 ms)
+   354 ms: std::make_unique<$> (14 times, avg 25 ms)
+   289 ms: std::reverse_iterator<$> (29 times, avg 9 ms)
+   278 ms: std::variant<$> (30 times, avg 9 ms)
+   250 ms: userver::components::ComponentList::Append<$> (11 times, avg 22 ms)
+   241 ms: std::is_constructible<$> (49 times, avg 4 ms)
+   220 ms: fmt::basic_format_string<$>::basic_format_string<$> (37 times, avg 5 ms)
+   209 ms: std::allocator<$> (5 times, avg 41 ms)
+   206 ms: __gnu_cxx::new_allocator<$> (3 times, avg 68 ms)
+   204 ms: std::search<$> (3 times, avg 68 ms)
+   203 ms: std::__search<$> (2 times, avg 101 ms)
+   203 ms: std::__detail::__variant::_Variant_base<$> (30 times, avg 6 ms)
+   193 ms: std::is_error_code_enum<$> (1 times, avg 193 ms)
+   175 ms: std::__do_visit<$> (24 times, avg 7 ms)
+   156 ms: std::__detail::__variant::__gen_vtable_impl<$>::_S_apply (24 times, avg 6 ms)
+   152 ms: std::__detail::__variant::__gen_vtable_impl<$>::_S_apply_all_alts<$> (24 times, avg 6 ms)
+   151 ms: std::pair<$> (136 times, avg 1 ms)
+   149 ms: std::_Tuple_impl<$> (177 times, avg 0 ms)
+   148 ms: fmt::detail::format_string_checker<$>::format_string_checker (25 times, avg 5 ms)
+   147 ms: std::__detail::__variant::__gen_vtable_impl<$>::_S_apply_single_alt<$> (73 times, avg 2 ms)
+
+**** Functions that took longest to compile:
+    16 ms: userver::v3_3_rc::ugrpc::client::impl::UnaryCall<handlers::api::Hell... (/workspace/profile-baseline/proto/handlers/hello_client.usrv.pb.cpp)
+    10 ms: void userver::v3_3_rc::ugrpc::client::impl::ClientData::OnConfigUpda... (/workspace/profile-baseline/proto/handlers/hello_client.usrv.pb.cpp)
+     9 ms: grpc::internal::CallOpClientRecvStatus::FinishOp(bool*) (/workspace/profile-baseline/proto/handlers/hello_client.usrv.pb.cpp)
+     9 ms: grpc::Status grpc::GenericDeserialize<grpc::ProtoBufferReader, handl... (/workspace/profile-baseline/proto/handlers/hello_service.usrv.pb.cpp)
+     9 ms: grpc::Status grpc::GenericDeserialize<grpc::ProtoBufferReader, handl... (/workspace/profile-baseline/proto/handlers/hello_client.usrv.pb.cpp)
+     9 ms: userver::v3_3_rc::ugrpc::server::impl::CallProcessor<userver::v3_3_r... (/workspace/profile-baseline/proto/handlers/hello_service.usrv.pb.cpp)
+     8 ms: grpc::Status grpc::GenericDeserialize<grpc::ProtoBufferReader, googl... (/workspace/profile-baseline/proto/handlers/hello.grpc.pb.cc)
+     7 ms: grpc::internal::CallOpClientRecvStatus::FinishOp(bool*) (/workspace/profile-baseline/proto/handlers/hello.grpc.pb.cc)
+     7 ms: userver::v3_3_rc::ugrpc::server::impl::CallProcessor<userver::v3_3_r... (/workspace/profile-baseline/proto/handlers/hello_service.usrv.pb.cpp)
+     7 ms: grpc::internal::BlockingUnaryCallImpl<google::protobuf::MessageLite,... (/workspace/profile-baseline/proto/handlers/hello.grpc.pb.cc)
+     6 ms: userver::v3_3_rc::ugrpc::client::impl::UnaryCall<handlers::api::Hell... (/workspace/profile-baseline/proto/handlers/hello_client.usrv.pb.cpp)
+     6 ms: build_study::HelloMongo::HandleRequestThrow[abi:cxx11](userver::v3_3... (/workspace/build_study/src/hello_mongo.cpp)
+     5 ms: grpc::internal::MetadataMap::GetBinaryErrorDetails[abi:cxx11]() (/workspace/profile-baseline/proto/handlers/hello_client.usrv.pb.cpp)
+     5 ms: grpc::internal::CallbackUnaryCallImpl<google::protobuf::MessageLite,... (/workspace/profile-baseline/proto/handlers/hello.grpc.pb.cc)
+     5 ms: grpc::Status grpc::GenericSerialize<grpc::ProtoBufferWriter, handler... (/workspace/profile-baseline/proto/handlers/hello_client.usrv.pb.cpp)
+     5 ms: userver::v3_3_rc::middlewares::RunnerComponentBase<userver::v3_3_rc:... (/workspace/build_study/src/hello_grpc.cpp)
+     4 ms: __cxx_global_var_init.14 (/workspace/profile-baseline/proto/handlers/hello_client.usrv.pb.cpp)
+     4 ms: userver::v3_3_rc::storages::Query::Query(char const*, std::optional<... (/workspace/build_study/src/hello_postgres.cpp)
+     4 ms: grpc::internal::InterceptorBatchMethodsImpl::ModifySendStatus(grpc::... (/workspace/profile-baseline/proto/handlers/hello_client.usrv.pb.cpp)
+     4 ms: grpc::internal::CallOpServerSendStatus::ServerSendStatus(std::multim... (/workspace/profile-baseline/proto/handlers/hello_service.usrv.pb.cpp)
+     4 ms: grpc::internal::CallbackUnaryHandler<grpc::ByteBuffer, grpc::ByteBuf... (/workspace/profile-baseline/proto/handlers/hello_service.usrv.pb.cpp)
+     4 ms: userver::v3_3_rc::yaml_config::Schema::~Schema() (/workspace/build_study/src/hello_grpc.cpp)
+     4 ms: grpc::internal::InterceptorBatchMethodsImpl::ModifySendStatus(grpc::... (/workspace/profile-baseline/proto/handlers/hello_service.usrv.pb.cpp)
+     4 ms: userver::v3_3_rc::yaml_config::Schema::~Schema() (/workspace/build_study/src/main.cpp)
+     4 ms: __cxx_global_var_init.20 (/workspace/profile-baseline/proto/handlers/hello_service.usrv.pb.cpp)
+     4 ms: grpc::internal::InterceptorBatchMethodsImpl::ModifySendStatus(grpc::... (/workspace/profile-baseline/proto/handlers/hello.grpc.pb.cc)
+     4 ms: std::default_delete<userver::v3_3_rc::yaml_config::Schema>::operator... (/workspace/build_study/src/main.cpp)
+     4 ms: grpc::internal::CallOpServerSendStatus::ServerSendStatus(std::multim... (/workspace/profile-baseline/proto/handlers/hello.grpc.pb.cc)
+     4 ms: grpc::Status grpc::GenericSerialize<grpc::ProtoBufferWriter, handler... (/workspace/profile-baseline/proto/handlers/hello_service.usrv.pb.cpp)
+     4 ms: grpc::experimental::ServerRpcInfo::RegisterInterceptors(std::vector<... (/workspace/profile-baseline/proto/handlers/hello_service.usrv.pb.cpp)
+
+**** Function sets that took longest to compile / optimize:
+    28 ms: userver::v3_3_rc::components::ComponentList& userver::v3_3_rc::compo... (11 times, avg 2 ms)
+    27 ms: grpc::Status grpc::GenericDeserialize<$>(grpc::ByteBuffer*, google::... (3 times, avg 9 ms)
+    21 ms: std::_MakeUniq<$>::__single_object std::make_unique<$>(std::__cxx11:... (11 times, avg 1 ms)
+    17 ms: void userver::v3_3_rc::components::impl::TryValidateStaticConfig<$>(... (10 times, avg 1 ms)
+    16 ms: userver::v3_3_rc::ugrpc::server::impl::CallProcessor<$>::ProcessCall() (2 times, avg 8 ms)
+    16 ms: grpc::internal::CallOpSet<$>::FinalizeResult(void**, bool*) (10 times, avg 1 ms)
+    16 ms: grpc::internal::CallOpSet<$>::~CallOpSet() (10 times, avg 1 ms)
+    16 ms: userver::v3_3_rc::ugrpc::client::impl::UnaryCall<$>::InterceptCall() (1 times, avg 16 ms)
+    15 ms: grpc::internal::CallOpSet<$>::FillOps(grpc::internal::Call*) (10 times, avg 1 ms)
+    14 ms: grpc::internal::CallOpSet<$>::ContinueFillOpsAfterInterception() (10 times, avg 1 ms)
+    13 ms: grpc::Status grpc::GenericSerialize<$>(google::protobuf::MessageLite... (3 times, avg 4 ms)
+    10 ms: void userver::v3_3_rc::ugrpc::client::impl::ClientData::OnConfigUpda... (1 times, avg 10 ms)
+    10 ms: userver::v3_3_rc::utils::impl::WrappedCallImpl<$>::~WrappedCallImpl() (4 times, avg 2 ms)
+     9 ms: grpc::internal::CallOpServerSendStatus::ServerSendStatus(std::multim... (2 times, avg 4 ms)
+     8 ms: std::_Optional_payload_base<$>::_M_move_assign(std::_Optional_payloa... (4 times, avg 2 ms)
+     7 ms: userver::v3_3_rc::utils::impl::WrappedCallImpl<$>::Perform() (4 times, avg 1 ms)
+     7 ms: grpc::Status::Status(grpc::StatusCode, std::__cxx11::basic_string<$>... (3 times, avg 2 ms)
+     7 ms: std::_Function_handler<$>::_M_manager(std::_Any_data&, std::_Any_dat... (11 times, avg 0 ms)
+     7 ms: grpc::internal::BlockingUnaryCallImpl<$>::BlockingUnaryCallImpl(grpc... (1 times, avg 7 ms)
+     7 ms: userver::v3_3_rc::utils::FastScopeGuard<$>::~FastScopeGuard() (6 times, avg 1 ms)
+     7 ms: void std::_Hashtable<$>::_M_assign<$>(std::_Hashtable<$> const&, std... (2 times, avg 3 ms)
+     6 ms: std::_Rb_tree_iterator<$> std::_Rb_tree<$>::_M_emplace_equal<$>(std:... (3 times, avg 2 ms)
+     6 ms: userver::v3_3_rc::ugrpc::client::impl::UnaryCall<$>::PerformAttempt() (1 times, avg 6 ms)
+     6 ms: userver::v3_3_rc::components::impl::ComponentAdder<$>::MakeComponent... (11 times, avg 0 ms)
+     5 ms: grpc::internal::CallOpSet<$>::ContinueFinalizeResultAfterInterceptio... (10 times, avg 0 ms)
+     5 ms: grpc::internal::FillMetadataArray(std::multimap<$> const&, unsigned ... (3 times, avg 1 ms)
+     5 ms: grpc::internal::CallbackUnaryCallImpl<$>::CallbackUnaryCallImpl(grpc... (1 times, avg 5 ms)
+     5 ms: userver::v3_3_rc::middlewares::RunnerComponentBase<$>::CreateMiddlew... (1 times, avg 5 ms)
+     5 ms: userver::v3_3_rc::utils::FixedArray<$>::~FixedArray() (4 times, avg 1 ms)
+     4 ms: userver::v3_3_rc::storages::Query::Query(char const*, std::optional<... (1 times, avg 4 ms)
+
+**** Expensive headers:
+5657 ms: /workspace/profile-baseline/proto/handlers/hello_service.usrv.pb.hpp (included 3 times, avg 1885 ms), included via:
+  2x: hello_grpc.hpp 
+  1x: <direct include>
+
+2570 ms: /workspace/build_study/src/hello_grpc.hpp (included 2 times, avg 1285 ms), included via:
+  2x: <direct include>
+
+2341 ms: /workspace/build_study/src/hello_postgres.hpp (included 2 times, avg 1170 ms), included via:
+  2x: <direct include>
+
+2253 ms: /workspace/profile-baseline/proto/handlers/hello.pb.h (included 6 times, avg 375 ms), included via:
+  2x: <direct include>
+  2x: hello_grpc.hpp hello_service.usrv.pb.hpp 
+  1x: hello_service.usrv.pb.hpp 
+  1x: hello_client.usrv.pb.hpp 
+
+2018 ms: /workspace/profile-baseline/proto/handlers/hello_client.usrv.pb.hpp (included 1 times, avg 2018 ms), included via:
+  1x: <direct include>
+
+1599 ms: /usr/include/userver/components/component.hpp (included 4 times, avg 399 ms), included via:
+  1x: hello_mongo.hpp 
+  1x: hello_grpc.hpp 
+  1x: hello_postgres.hpp 
+  1x: <direct include>
+
+1023 ms: /workspace/build_study/src/hello_mongo.hpp (included 1 times, avg 1023 ms), included via:
+  1x: <direct include>
+
+913 ms: /workspace/build_study/src/hello.hpp (included 1 times, avg 913 ms), included via:
+  1x: <direct include>
+
+766 ms: /usr/include/fmt/format.h (included 8 times, avg 95 ms), included via:
+  1x: <direct include>
+  1x: component.hpp resolver.hpp common.hpp sockaddr.hpp in.h 
+  1x: hello_mongo.hpp component.hpp component_config.hpp yaml_config.hpp common.hpp cmath 
+  1x: hello.hpp http_handler_base.hpp token_bucket.hpp rate_counter.hpp rate.hpp 
+  1x: hello_grpc.hpp component.hpp component_config.hpp yaml_config.hpp common.hpp cmath 
+  1x: hello_postgres.hpp component.hpp component_config.hpp yaml_config.hpp common.hpp cmath 
+  ...
+
+714 ms: /usr/include/userver/clients/dns/component.hpp (included 1 times, avg 714 ms), included via:
+  1x: <direct include>
+
+  done in 0.0s.

@@ -1,0 +1,18 @@
+{
+  "samples": 179,
+  "low_latency_samples": 178,
+  "host_elapsed": 88.86222400004044,
+  "guest_elapsed": 88.85546276900004,
+  "max_abs_clock_drift_seconds": 0.008657281019395668,
+  "max_rtt": 0.35024780000094324,
+  "reliable": true,
+  "tsc_frequency_hz": 4691105612.22067,
+  "max_abs_tsc_drift_seconds": 0.009107701795031176,
+  "tested_cpus": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "tsc_reliable": true
+}

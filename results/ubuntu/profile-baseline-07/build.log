@@ -1,0 +1,43 @@
+[1/13] Running gRPC C++ protocol buffer compiler for /workspace/build_study/proto
+[2/13] Building CXX object CMakeFiles/build_study_objs.dir/src/greeting.cpp.o
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]
+2 warnings generated.
+[3/13] Building CXX object CMakeFiles/build_study_objs.dir/src/hello.cpp.o
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]
+2 warnings generated.
+[4/13] Building CXX object CMakeFiles/build_study_objs.dir/src/hello_mongo.cpp.o
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]
+2 warnings generated.
+[5/13] Building CXX object CMakeFiles/build_study_objs.dir/src/hello_postgres.cpp.o
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]
+2 warnings generated.
+[6/13] Building CXX object CMakeFiles/build_study_proto.dir/proto/handlers/hello.pb.cc.o
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]
+2 warnings generated.
+[7/13] Building CXX object CMakeFiles/build_study_objs.dir/src/hello_grpc.cpp.o
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]
+2 warnings generated.
+[8/13] Building CXX object CMakeFiles/build_study_proto.dir/proto/handlers/hello.grpc.pb.cc.o
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]
+2 warnings generated.
+[9/13] Building CXX object CMakeFiles/build_study_proto.dir/proto/handlers/hello_service.usrv.pb.cpp.o
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]
+2 warnings generated.
+[10/13] Building CXX object CMakeFiles/build_study_proto.dir/proto/handlers/hello_client.usrv.pb.cpp.o
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]
+2 warnings generated.
+[11/13] Linking CXX static library libbuild_study_proto.a
+[12/13] Building CXX object CMakeFiles/build_study.dir/src/main.cpp.o
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]
+2 warnings generated.
+[13/13] Linking CXX executable build_study

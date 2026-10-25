@@ -1,0 +1,31 @@
+PASS: all template files match; exactly one CMake line added, no C++ changes.
+PASS: 40 CSV rows, 32 measured builds, 8 warmups, 240 raw traces and Ninja intervals.
+profile pair 1: GNU ld=20.140158s, LLD=8.327844s
+profile pair 2: GNU ld=19.978625s, LLD=8.799130s
+profile pair 3: GNU ld=19.320303s, LLD=8.849999s
+profile pair 4: GNU ld=19.479036s, LLD=8.543465s
+profile pair 5: GNU ld=19.305141s, LLD=8.332840s
+profile pair 6: GNU ld=19.569905s, LLD=8.428010s
+profile pair 7: GNU ld=19.533239s, LLD=8.281864s
+profile pair 8: GNU ld=19.548046s, LLD=8.662153s
+profile pair 9: GNU ld=19.562368s, LLD=8.490822s
+profile pair 10: GNU ld=19.446992s, LLD=8.210219s
+plain pair 1: GNU ld=18.763773s, LLD=8.135464s
+plain pair 2: GNU ld=19.222265s, LLD=7.857430s
+plain pair 3: GNU ld=19.013215s, LLD=8.003826s
+plain pair 4: GNU ld=18.746124s, LLD=7.831579s
+plain pair 5: GNU ld=18.665531s, LLD=8.043138s
+plain pair 6: GNU ld=18.879332s, LLD=7.874709s
+frontend_seconds: min=17.131087s, max=18.316504s
+backend_seconds: min=3.915527s, max=4.273367s
+generated_frontend_seconds: min=7.195507s, max=7.579866s
+generated_backend_seconds: min=2.915622s, max=3.257592s
+service_header: min=3.066000s, max=3.270000s
+component_header: min=1.777000s, max=2.136000s
+link_seconds: min=12.723000s, max=13.241000s
+wall_seconds: min=19.305141s, max=20.140158s
+PASS: all 16 measured pairs and profiling ranges recalculated from raw data.
+PASS: matching compiler commands; link commands differ only in linker selection.
+ELF bytes: GNU ld=122554832, LLD=139328912; change=13.687%
+PASS: both unit tests, identical schemas and dynamic dependencies.
+LIMIT: stored logs and timer/stat readings do not authenticate themselves; rerun independently.

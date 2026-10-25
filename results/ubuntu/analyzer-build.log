@@ -1,0 +1,17 @@
+[1/17] Building C object CMakeFiles/ClangBuildAnalyzer.dir/src/external/inih/ini.c.o
+[2/17] Building CXX object CMakeFiles/ClangBuildAnalyzer.dir/src/Arena.cpp.o
+[3/17] Building C object CMakeFiles/ClangBuildAnalyzer.dir/src/external/cwalk/cwalk.c.o
+[4/17] Building CXX object CMakeFiles/ClangBuildAnalyzer.dir/src/Colors.cpp.o
+[5/17] Building C object CMakeFiles/ClangBuildAnalyzer.dir/src/external/xxHash/xxhash.c.o
+[6/17] Building CXX object CMakeFiles/ClangBuildAnalyzer.dir/src/main.cpp.o
+[7/17] Building CXX object CMakeFiles/ClangBuildAnalyzer.dir/src/Utils.cpp.o
+[8/17] Building CXX object CMakeFiles/ClangBuildAnalyzer.dir/src/external/enkiTS/TaskScheduler.cpp.o
+[9/17] Building CXX object CMakeFiles/ClangBuildAnalyzer.dir/src/external/inih/cpp/INIReader.cpp.o
+[10/17] Building CXX object CMakeFiles/ClangBuildAnalyzer.dir/src/external/llvm-Demangle/lib/Demangle.cpp.o
+[11/17] Building CXX object CMakeFiles/ClangBuildAnalyzer.dir/src/Analysis.cpp.o
+[12/17] Building CXX object CMakeFiles/ClangBuildAnalyzer.dir/src/BuildEvents.cpp.o
+[13/17] Building CXX object CMakeFiles/ClangBuildAnalyzer.dir/src/external/llvm-Demangle/lib/MicrosoftDemangle.cpp.o
+[14/17] Building CXX object CMakeFiles/ClangBuildAnalyzer.dir/src/external/llvm-Demangle/lib/MicrosoftDemangleNodes.cpp.o
+[15/17] Building CXX object CMakeFiles/ClangBuildAnalyzer.dir/src/external/llvm-Demangle/lib/ItaniumDemangle.cpp.o
+[16/17] Building CXX object CMakeFiles/ClangBuildAnalyzer.dir/src/external/simdjson/simdjson.cpp.o
+[17/17] Linking CXX executable ClangBuildAnalyzer

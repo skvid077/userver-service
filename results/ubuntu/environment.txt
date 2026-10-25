@@ -1,0 +1,39 @@
+2026-10-25T12:16:29+00:00
+Linux f35897b7c10a 5.15.0-198-generic #208-Ubuntu SMP Fri Sep 4 10:22:38 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.5 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+Ubuntu clang version 18.1.8 (++20240731024944+3b5b5c1ec4a3-1~exp1~20240731145000.144)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+cmake version 4.4.4
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+1.10.1
+Python 3.10.12
+GNU ld (GNU Binutils for Ubuntu) 2.38
+Copyright (C) 2022 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+Ubuntu LLD 18.1.8 (compatible with GNU linkers)
+clang-18	1:18.1.8~++20240731024944+3b5b5c1ec4a3-1~exp1~20240731145000.144
+lld-18	1:18.1.8~++20240731024944+3b5b5c1ec4a3-1~exp1~20240731145000.144
+libuserver-all-dev	3.3-rc
+
+Cgroup limits: cpu.max cpuset memory.max memory.swap.max
+400000 100000
+0-3
+8589934592
+0
+ClangBuildAnalyzer 1.6.0

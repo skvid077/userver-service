@@ -1,0 +1,23 @@
+{
+  "started_unix": 1792931164.3910818,
+  "command": [
+    "cmake",
+    "--build",
+    "/workspace/plain-optimized",
+    "--target",
+    "build_study",
+    "--parallel",
+    "4"
+  ],
+  "wall_seconds": 9.566545944000154,
+  "mode": "plain",
+  "compiler_tasks": 10,
+  "cpu_user_seconds": 20.75488,
+  "cpu_system_seconds": 3.32103,
+  "compilation_wall_seconds": 7.402,
+  "link_seconds": 2.032,
+  "build_exit_code": 0,
+  "analysis_exit_code": null,
+  "trace_count": 0,
+  "traces": []
+}

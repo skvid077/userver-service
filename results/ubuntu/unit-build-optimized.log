@@ -1,0 +1,5 @@
+[1/2] Building CXX object CMakeFiles/build_study_unittest.dir/src/greeting_test.cpp.o
+warning: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Wunknown-warning-option]
+warning: unknown warning option '-Wno-useless-cast' [-Wunknown-warning-option]
+2 warnings generated.
+[2/2] Linking CXX executable build_study_unittest

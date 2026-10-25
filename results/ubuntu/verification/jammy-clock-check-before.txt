@@ -1,0 +1,41 @@
+{
+  "clocksource": "tsc",
+  "kernel_command_line": "BOOT_IMAGE=/boot/vmlinuz-5.15.0-198-generic root=UUID=056c5065-7bb2-4c19-98f2-e5ac7c32582d ro no-kvmclock clocksource=tsc tsc=reliable tsc_early_khz=4691100 nox2apic rcupdate.rcu_normal=1 console=tty1 console=ttyS0",
+  "sleep10_monotonic": 10.029184364999992,
+  "sleep10_wall": 10.029185056686401,
+  "per_cpu": [
+    {
+      "cpu": 0,
+      "sleep_monotonic": 1.0015257769999835,
+      "sleep_wall": 1.0015296936035156,
+      "sleep_cpu": 4.0336000000001926e-05,
+      "busy_monotonic": 1.0005738070000234,
+      "busy_cpu": 1.00041356
+    },
+    {
+      "cpu": 1,
+      "sleep_monotonic": 1.2030593049999538,
+      "sleep_wall": 1.2030613422393799,
+      "sleep_cpu": 3.7010000000003984e-05,
+      "busy_monotonic": 1.0001260999999886,
+      "busy_cpu": 1.000094258
+    },
+    {
+      "cpu": 2,
+      "sleep_monotonic": 1.0080207729999984,
+      "sleep_wall": 1.0080225467681885,
+      "sleep_cpu": 0.0001100580000001905,
+      "busy_monotonic": 1.0001400500000273,
+      "busy_cpu": 1.00000686
+    },
+    {
+      "cpu": 3,
+      "sleep_monotonic": 1.0163773879999667,
+      "sleep_wall": 1.0163803100585938,
+      "sleep_cpu": 5.661599999973177e-05,
+      "busy_monotonic": 1.0001590359999568,
+      "busy_cpu": 1.000160911
+    }
+  ]
+}
+HOST elapsed including SSH: 18.4462975

@@ -1,0 +1,1 @@
+BOOT_IMAGE=/boot/vmlinuz-5.15.0-198-generic root=UUID=056c5065-7bb2-4c19-98f2-e5ac7c32582d ro no-kvmclock clocksource=tsc tsc=reliable tsc_early_khz=4691100 nox2apic rcupdate.rcu_normal=1 console=tty1 console=ttyS0

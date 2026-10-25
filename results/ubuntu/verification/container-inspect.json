@@ -1,0 +1,293 @@
+[
+    {
+        "Id": "f35897b7c10a3680dcfc9a00f9924abf2f78ba956fd0007d438c938fe55403fd",
+        "Created": "2026-10-25T12:16:12.220923866Z",
+        "Path": "bash",
+        "Args": [
+            "/study/scripts/experiment.sh",
+            "all",
+            "10",
+            "6"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 11083,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-10-25T12:16:12.40962892Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:fca9c8ac7e97b4e2b042d822facbb152aec10a9d4e09c0862e44c50640f3f303",
+        "ResolvConfPath": "/var/lib/docker/containers/f35897b7c10a3680dcfc9a00f9924abf2f78ba956fd0007d438c938fe55403fd/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/f35897b7c10a3680dcfc9a00f9924abf2f78ba956fd0007d438c938fe55403fd/hostname",
+        "HostsPath": "/var/lib/docker/containers/f35897b7c10a3680dcfc9a00f9924abf2f78ba956fd0007d438c938fe55403fd/hosts",
+        "LogPath": "/var/lib/docker/containers/f35897b7c10a3680dcfc9a00f9924abf2f78ba956fd0007d438c938fe55403fd/f35897b7c10a3680dcfc9a00f9924abf2f78ba956fd0007d438c938fe55403fd-json.log",
+        "Name": "/userver-study-20261025-121612-11001",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "bridge",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 8589934592,
+            "NanoCpus": 4000000000,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "0-3",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 8589934592,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "Mounts": [
+                {
+                    "Type": "bind",
+                    "Source": "/home/study/userver-service",
+                    "Target": "/study",
+                    "ReadOnly": true
+                },
+                {
+                    "Type": "bind",
+                    "Source": "/home/study/userver-service/results/20261025-121612-11001",
+                    "Target": "/results"
+                },
+                {
+                    "Type": "volume",
+                    "Target": "/workspace"
+                }
+            ],
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/home/study/userver-service/results/20261025-121612-11001",
+                "Destination": "/results",
+                "Mode": "",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/home/study/userver-service",
+                "Destination": "/study",
+                "Mode": "",
+                "RW": false,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "volume",
+                "Name": "cc14da607b8642ba245bb3aa3d504e4eec0df43a0e4a2a4c5cd421f34b3166c4",
+                "Source": "/var/lib/docker/volumes/cc14da607b8642ba245bb3aa3d504e4eec0df43a0e4a2a4c5cd421f34b3166c4/_data",
+                "Destination": "/workspace",
+                "Driver": "local",
+                "Mode": "z",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "f35897b7c10a",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "8080/tcp": {},
+                "8081/tcp": {},
+                "8082/tcp": {},
+                "8083/tcp": {},
+                "8084/tcp": {},
+                "8085/tcp": {},
+                "8086/tcp": {},
+                "8087/tcp": {},
+                "8088/tcp": {},
+                "8089/tcp": {},
+                "8090/tcp": {},
+                "8091/tcp": {},
+                "8092/tcp": {},
+                "8093/tcp": {},
+                "8094/tcp": {},
+                "8095/tcp": {},
+                "8096/tcp": {},
+                "8097/tcp": {},
+                "8098/tcp": {},
+                "8099/tcp": {},
+                "8100/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "bash",
+                "/study/scripts/experiment.sh",
+                "all",
+                "10",
+                "6"
+            ],
+            "Image": "ghcr.io/userver-framework/ubuntu-22.04-userver@sha256:fca9c8ac7e97b4e2b042d822facbb152aec10a9d4e09c0862e44c50640f3f303",
+            "Volumes": null,
+            "WorkingDir": "/workspace",
+            "Entrypoint": null,
+            "Labels": {
+                "org.opencontainers.image.version": "22.04"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "f179757d65d5a361c5c77264b3da36798ea794e751f11989ae00c0ca52fd9221",
+            "SandboxKey": "/var/run/docker/netns/f179757d65d5",
+            "Ports": {
+                "8080/tcp": null,
+                "8081/tcp": null,
+                "8082/tcp": null,
+                "8083/tcp": null,
+                "8084/tcp": null,
+                "8085/tcp": null,
+                "8086/tcp": null,
+                "8087/tcp": null,
+                "8088/tcp": null,
+                "8089/tcp": null,
+                "8090/tcp": null,
+                "8091/tcp": null,
+                "8092/tcp": null,
+                "8093/tcp": null,
+                "8094/tcp": null,
+                "8095/tcp": null,
+                "8096/tcp": null,
+                "8097/tcp": null,
+                "8098/tcp": null,
+                "8099/tcp": null,
+                "8100/tcp": null
+            },
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "d54c025a7061664f538f99eeb518140ffdff9868313fefeeea4a3e94e18efdb9",
+                    "EndpointID": "820921e92d5841b18d112b19d67119509821e934f5e1b645d30a196efa295338",
+                    "Gateway": "172.17.0.1",
+                    "IPAddress": "172.17.0.2",
+                    "MacAddress": "96:58:32:b5:d5:4f",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": null
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "digest": "sha256:fca9c8ac7e97b4e2b042d822facbb152aec10a9d4e09c0862e44c50640f3f303",
+            "size": 4689,
+            "annotations": {
+                "org.opencontainers.image.ref.name": "ghcr.io/userver-framework/ubuntu-22.04-userver:assignment"
+            },
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]

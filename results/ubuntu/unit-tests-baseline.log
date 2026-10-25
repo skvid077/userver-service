@@ -1,0 +1,10 @@
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SayHelloTo
+[ RUN      ] SayHelloTo.Basic
+[       OK ] SayHelloTo.Basic (21 ms)
+[----------] 1 test from SayHelloTo (21 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (21 ms total)
+[  PASSED  ] 1 test.

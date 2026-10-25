@@ -1,6 +1,7 @@
 results/*
 !results/run/
 !results/diagnostics/
+!results/ubuntu/
 !results/verification.txt
 *.zip
 __pycache__/
